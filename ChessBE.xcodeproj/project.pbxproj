@@ -34,30 +34,26 @@
 		EA3D03F42BF6AF1800CC2DD0 /* Player.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA3D03D92BF6AF1800CC2DD0 /* Player.swift */; };
 		EA3D03F52BF6AF1800CC2DD0 /* PlayerType.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA3D03DA2BF6AF1800CC2DD0 /* PlayerType.swift */; };
 		EA3D03F62BF6AF1800CC2DD0 /* EventDispatcher.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA3D03DB2BF6AF1800CC2DD0 /* EventDispatcher.swift */; };
-		EA3D03FF2BF6AFF600CC2DD0 /* libChessBE.a in Frameworks */ = {isa = PBXBuildFile; fileRef = EA3D03B12BF6AEBE00CC2DD0 /* libChessBE.a */; };
-		EA3D04102BF6B04000CC2DD0 /* GameStateTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA3D04062BF6B04000CC2DD0 /* GameStateTests.swift */; };
-		EA3D04122BF6B04000CC2DD0 /* MoveGeneratorTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA3D04082BF6B04000CC2DD0 /* MoveGeneratorTests.swift */; };
-		EA3D04132BF6B04000CC2DD0 /* PositionTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA3D04092BF6B04000CC2DD0 /* PositionTests.swift */; };
-		EA3D04142BF6B04000CC2DD0 /* MoveListTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA3D040A2BF6B04000CC2DD0 /* MoveListTests.swift */; };
-		EA3D04152BF6B04000CC2DD0 /* MateDetectorTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA3D040B2BF6B04000CC2DD0 /* MateDetectorTests.swift */; };
-		EA3D04162BF6B04000CC2DD0 /* SquareInfoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA3D040C2BF6B04000CC2DD0 /* SquareInfoTests.swift */; };
-		EA3D04172BF6B04000CC2DD0 /* CheckDetectorTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA3D040D2BF6B04000CC2DD0 /* CheckDetectorTests.swift */; };
-		EA3D04182BF6B04000CC2DD0 /* NotationTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA3D040F2BF6B04000CC2DD0 /* NotationTests.swift */; };
-		EA3D043A2BF796A600CC2DD0 /* EngMove.h in Headers */ = {isa = PBXBuildFile; fileRef = EA3D04382BF796A600CC2DD0 /* EngMove.h */; };
-		EA3D043B2BF796A600CC2DD0 /* EngMove.c in Sources */ = {isa = PBXBuildFile; fileRef = EA3D04392BF796A600CC2DD0 /* EngMove.c */; };
-		EA3D043E2BF7972800CC2DD0 /* EngPiece.h in Headers */ = {isa = PBXBuildFile; fileRef = EA3D043C2BF7972800CC2DD0 /* EngPiece.h */; };
-		EA3D043F2BF7972800CC2DD0 /* EngPiece.c in Sources */ = {isa = PBXBuildFile; fileRef = EA3D043D2BF7972800CC2DD0 /* EngPiece.c */; };
-		EA3D04482BF7B99B00CC2DD0 /* EngPieceTests.m in Sources */ = {isa = PBXBuildFile; fileRef = EA3D04472BF7B99B00CC2DD0 /* EngPieceTests.m */; };
-		EA3D044D2BF88F3000CC2DD0 /* EngPosition.h in Headers */ = {isa = PBXBuildFile; fileRef = EA3D044B2BF88F3000CC2DD0 /* EngPosition.h */; };
-		EA3D044E2BF88F3000CC2DD0 /* EngPosition.c in Sources */ = {isa = PBXBuildFile; fileRef = EA3D044C2BF88F3000CC2DD0 /* EngPosition.c */; };
-		EA3D04512BF8929300CC2DD0 /* EngCommon.h in Headers */ = {isa = PBXBuildFile; fileRef = EA3D044F2BF8929300CC2DD0 /* EngCommon.h */; };
-		EA3D04522BF8929300CC2DD0 /* EngCommon.c in Sources */ = {isa = PBXBuildFile; fileRef = EA3D04502BF8929300CC2DD0 /* EngCommon.c */; };
-		EA3D04552BFA09AA00CC2DD0 /* EngMoveGenerator.h in Headers */ = {isa = PBXBuildFile; fileRef = EA3D04532BFA09AA00CC2DD0 /* EngMoveGenerator.h */; };
-		EA3D04562BFA09AA00CC2DD0 /* EngMoveGenerator.c in Sources */ = {isa = PBXBuildFile; fileRef = EA3D04542BFA09AA00CC2DD0 /* EngMoveGenerator.c */; };
+		EAEC096D2C1F259E0035F2D1 /* ChessBETests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAEC096C2C1F259E0035F2D1 /* ChessBETests.swift */; };
+		EAEC096E2C1F259E0035F2D1 /* libChessBE.a in Frameworks */ = {isa = PBXBuildFile; fileRef = EA3D03B12BF6AEBE00CC2DD0 /* libChessBE.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		EA3D04002BF6AFF600CC2DD0 /* PBXContainerItemProxy */ = {
+		EAEC095B2C1F214D0035F2D1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EAEC09552C1F214D0035F2D1 /* ChessEngine.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = EA5D54D72BFCE26900F1BFB8;
+			remoteInfo = ChessEngine;
+		};
+		EAEC095D2C1F214D0035F2D1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EAEC09552C1F214D0035F2D1 /* ChessEngine.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = EA5D54FE2BFCE93900F1BFB8;
+			remoteInfo = ChessEngineTests;
+		};
+		EAEC096F2C1F259E0035F2D1 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = EA3D03A92BF6AEBE00CC2DD0 /* Project object */;
 			proxyType = 1;
@@ -95,27 +91,10 @@
 		EA3D03D92BF6AF1800CC2DD0 /* Player.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Player.swift; sourceTree = "<group>"; };
 		EA3D03DA2BF6AF1800CC2DD0 /* PlayerType.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PlayerType.swift; sourceTree = "<group>"; };
 		EA3D03DB2BF6AF1800CC2DD0 /* EventDispatcher.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EventDispatcher.swift; sourceTree = "<group>"; };
-		EA3D03FB2BF6AFF600CC2DD0 /* ChessBETests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ChessBETests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		EA3D04062BF6B04000CC2DD0 /* GameStateTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GameStateTests.swift; sourceTree = "<group>"; };
-		EA3D04082BF6B04000CC2DD0 /* MoveGeneratorTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MoveGeneratorTests.swift; sourceTree = "<group>"; };
-		EA3D04092BF6B04000CC2DD0 /* PositionTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PositionTests.swift; sourceTree = "<group>"; };
-		EA3D040A2BF6B04000CC2DD0 /* MoveListTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MoveListTests.swift; sourceTree = "<group>"; };
-		EA3D040B2BF6B04000CC2DD0 /* MateDetectorTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MateDetectorTests.swift; sourceTree = "<group>"; };
-		EA3D040C2BF6B04000CC2DD0 /* SquareInfoTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SquareInfoTests.swift; sourceTree = "<group>"; };
-		EA3D040D2BF6B04000CC2DD0 /* CheckDetectorTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CheckDetectorTests.swift; sourceTree = "<group>"; };
-		EA3D040F2BF6B04000CC2DD0 /* NotationTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NotationTests.swift; sourceTree = "<group>"; };
 		EA3D04202BF73D4D00CC2DD0 /* BridgingHeader.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BridgingHeader.h; sourceTree = "<group>"; };
-		EA3D04382BF796A600CC2DD0 /* EngMove.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = EngMove.h; sourceTree = "<group>"; };
-		EA3D04392BF796A600CC2DD0 /* EngMove.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = EngMove.c; sourceTree = "<group>"; };
-		EA3D043C2BF7972800CC2DD0 /* EngPiece.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = EngPiece.h; sourceTree = "<group>"; };
-		EA3D043D2BF7972800CC2DD0 /* EngPiece.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = EngPiece.c; sourceTree = "<group>"; };
-		EA3D04472BF7B99B00CC2DD0 /* EngPieceTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = EngPieceTests.m; sourceTree = "<group>"; };
-		EA3D044B2BF88F3000CC2DD0 /* EngPosition.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = EngPosition.h; sourceTree = "<group>"; };
-		EA3D044C2BF88F3000CC2DD0 /* EngPosition.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = EngPosition.c; sourceTree = "<group>"; };
-		EA3D044F2BF8929300CC2DD0 /* EngCommon.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = EngCommon.h; sourceTree = "<group>"; };
-		EA3D04502BF8929300CC2DD0 /* EngCommon.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = EngCommon.c; sourceTree = "<group>"; };
-		EA3D04532BFA09AA00CC2DD0 /* EngMoveGenerator.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = EngMoveGenerator.h; sourceTree = "<group>"; };
-		EA3D04542BFA09AA00CC2DD0 /* EngMoveGenerator.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = EngMoveGenerator.c; sourceTree = "<group>"; };
+		EAEC09552C1F214D0035F2D1 /* ChessEngine.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = ChessEngine.xcodeproj; path = ../ChessEngine/ChessEngine.xcodeproj; sourceTree = "<group>"; };
+		EAEC096A2C1F259E0035F2D1 /* ChessBETests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ChessBETests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		EAEC096C2C1F259E0035F2D1 /* ChessBETests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChessBETests.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -126,11 +105,11 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		EA3D03F82BF6AFF600CC2DD0 /* Frameworks */ = {
+		EAEC09672C1F259E0035F2D1 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				EA3D03FF2BF6AFF600CC2DD0 /* libChessBE.a in Frameworks */,
+				EAEC096E2C1F259E0035F2D1 /* libChessBE.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -140,12 +119,12 @@
 		EA3D03A82BF6AEBE00CC2DD0 = {
 			isa = PBXGroup;
 			children = (
-				EA3D04372BF7967E00CC2DD0 /* engine */,
+				EAEC09552C1F214D0035F2D1 /* ChessEngine.xcodeproj */,
 				EA3D04202BF73D4D00CC2DD0 /* BridgingHeader.h */,
 				EA3D03D02BF6AF1800CC2DD0 /* common */,
 				EA3D03C12BF6AF1800CC2DD0 /* engine-orig */,
 				EA3D03BE2BF6AF1800CC2DD0 /* model */,
-				EA3D03FC2BF6AFF600CC2DD0 /* ChessBETests */,
+				EAEC096B2C1F259E0035F2D1 /* ChessBETests */,
 				EA3D03B22BF6AEBE00CC2DD0 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -154,7 +133,7 @@
 			isa = PBXGroup;
 			children = (
 				EA3D03B12BF6AEBE00CC2DD0 /* libChessBE.a */,
-				EA3D03FB2BF6AFF600CC2DD0 /* ChessBETests.xctest */,
+				EAEC096A2C1F259E0035F2D1 /* ChessBETests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -207,61 +186,21 @@
 			path = common;
 			sourceTree = "<group>";
 		};
-		EA3D03FC2BF6AFF600CC2DD0 /* ChessBETests */ = {
+		EAEC09562C1F214D0035F2D1 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				EA3D04422BF7B51200CC2DD0 /* engine */,
-				EA3D04052BF6B04000CC2DD0 /* engine-orig */,
-				EA3D040E2BF6B04000CC2DD0 /* model */,
+				EAEC095C2C1F214D0035F2D1 /* libChessEngine.a */,
+				EAEC095E2C1F214D0035F2D1 /* ChessEngineTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		EAEC096B2C1F259E0035F2D1 /* ChessBETests */ = {
+			isa = PBXGroup;
+			children = (
+				EAEC096C2C1F259E0035F2D1 /* ChessBETests.swift */,
 			);
 			path = ChessBETests;
-			sourceTree = "<group>";
-		};
-		EA3D04052BF6B04000CC2DD0 /* engine-orig */ = {
-			isa = PBXGroup;
-			children = (
-				EA3D04062BF6B04000CC2DD0 /* GameStateTests.swift */,
-				EA3D04082BF6B04000CC2DD0 /* MoveGeneratorTests.swift */,
-				EA3D04092BF6B04000CC2DD0 /* PositionTests.swift */,
-				EA3D040A2BF6B04000CC2DD0 /* MoveListTests.swift */,
-				EA3D040B2BF6B04000CC2DD0 /* MateDetectorTests.swift */,
-				EA3D040C2BF6B04000CC2DD0 /* SquareInfoTests.swift */,
-				EA3D040D2BF6B04000CC2DD0 /* CheckDetectorTests.swift */,
-			);
-			path = "engine-orig";
-			sourceTree = "<group>";
-		};
-		EA3D040E2BF6B04000CC2DD0 /* model */ = {
-			isa = PBXGroup;
-			children = (
-				EA3D040F2BF6B04000CC2DD0 /* NotationTests.swift */,
-			);
-			path = model;
-			sourceTree = "<group>";
-		};
-		EA3D04372BF7967E00CC2DD0 /* engine */ = {
-			isa = PBXGroup;
-			children = (
-				EA3D04382BF796A600CC2DD0 /* EngMove.h */,
-				EA3D04392BF796A600CC2DD0 /* EngMove.c */,
-				EA3D043C2BF7972800CC2DD0 /* EngPiece.h */,
-				EA3D043D2BF7972800CC2DD0 /* EngPiece.c */,
-				EA3D044B2BF88F3000CC2DD0 /* EngPosition.h */,
-				EA3D044C2BF88F3000CC2DD0 /* EngPosition.c */,
-				EA3D044F2BF8929300CC2DD0 /* EngCommon.h */,
-				EA3D04502BF8929300CC2DD0 /* EngCommon.c */,
-				EA3D04532BFA09AA00CC2DD0 /* EngMoveGenerator.h */,
-				EA3D04542BFA09AA00CC2DD0 /* EngMoveGenerator.c */,
-			);
-			path = engine;
-			sourceTree = "<group>";
-		};
-		EA3D04422BF7B51200CC2DD0 /* engine */ = {
-			isa = PBXGroup;
-			children = (
-				EA3D04472BF7B99B00CC2DD0 /* EngPieceTests.m */,
-			);
-			path = engine;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -271,11 +210,6 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				EA3D04512BF8929300CC2DD0 /* EngCommon.h in Headers */,
-				EA3D043E2BF7972800CC2DD0 /* EngPiece.h in Headers */,
-				EA3D04552BFA09AA00CC2DD0 /* EngMoveGenerator.h in Headers */,
-				EA3D044D2BF88F3000CC2DD0 /* EngPosition.h in Headers */,
-				EA3D043A2BF796A600CC2DD0 /* EngMove.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -299,22 +233,22 @@
 			productReference = EA3D03B12BF6AEBE00CC2DD0 /* libChessBE.a */;
 			productType = "com.apple.product-type.library.static";
 		};
-		EA3D03FA2BF6AFF600CC2DD0 /* ChessBETests */ = {
+		EAEC09692C1F259E0035F2D1 /* ChessBETests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = EA3D04022BF6AFF600CC2DD0 /* Build configuration list for PBXNativeTarget "ChessBETests" */;
+			buildConfigurationList = EAEC09712C1F259E0035F2D1 /* Build configuration list for PBXNativeTarget "ChessBETests" */;
 			buildPhases = (
-				EA3D03F72BF6AFF600CC2DD0 /* Sources */,
-				EA3D03F82BF6AFF600CC2DD0 /* Frameworks */,
-				EA3D03F92BF6AFF600CC2DD0 /* Resources */,
+				EAEC09662C1F259E0035F2D1 /* Sources */,
+				EAEC09672C1F259E0035F2D1 /* Frameworks */,
+				EAEC09682C1F259E0035F2D1 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				EA3D04012BF6AFF600CC2DD0 /* PBXTargetDependency */,
+				EAEC09702C1F259E0035F2D1 /* PBXTargetDependency */,
 			);
 			name = ChessBETests;
 			productName = ChessBETests;
-			productReference = EA3D03FB2BF6AFF600CC2DD0 /* ChessBETests.xctest */;
+			productReference = EAEC096A2C1F259E0035F2D1 /* ChessBETests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
 /* End PBXNativeTarget section */
@@ -330,9 +264,8 @@
 					EA3D03B02BF6AEBE00CC2DD0 = {
 						CreatedOnToolsVersion = 15.0;
 					};
-					EA3D03FA2BF6AFF600CC2DD0 = {
+					EAEC09692C1F259E0035F2D1 = {
 						CreatedOnToolsVersion = 15.0;
-						LastSwiftMigration = 1500;
 					};
 				};
 			};
@@ -347,16 +280,39 @@
 			mainGroup = EA3D03A82BF6AEBE00CC2DD0;
 			productRefGroup = EA3D03B22BF6AEBE00CC2DD0 /* Products */;
 			projectDirPath = "";
+			projectReferences = (
+				{
+					ProductGroup = EAEC09562C1F214D0035F2D1 /* Products */;
+					ProjectRef = EAEC09552C1F214D0035F2D1 /* ChessEngine.xcodeproj */;
+				},
+			);
 			projectRoot = "";
 			targets = (
 				EA3D03B02BF6AEBE00CC2DD0 /* ChessBE */,
-				EA3D03FA2BF6AFF600CC2DD0 /* ChessBETests */,
+				EAEC09692C1F259E0035F2D1 /* ChessBETests */,
 			);
 		};
 /* End PBXProject section */
 
+/* Begin PBXReferenceProxy section */
+		EAEC095C2C1F214D0035F2D1 /* libChessEngine.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = libChessEngine.a;
+			remoteRef = EAEC095B2C1F214D0035F2D1 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		EAEC095E2C1F214D0035F2D1 /* ChessEngineTests.xctest */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.cfbundle;
+			path = ChessEngineTests.xctest;
+			remoteRef = EAEC095D2C1F214D0035F2D1 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+/* End PBXReferenceProxy section */
+
 /* Begin PBXResourcesBuildPhase section */
-		EA3D03F92BF6AFF600CC2DD0 /* Resources */ = {
+		EAEC09682C1F259E0035F2D1 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -377,14 +333,11 @@
 				EA3D03E62BF6AF1800CC2DD0 /* EvaluationSupport.swift in Sources */,
 				EA3D03DF2BF6AF1800CC2DD0 /* Move.swift in Sources */,
 				EA3D03E22BF6AF1800CC2DD0 /* Piece.swift in Sources */,
-				EA3D044E2BF88F3000CC2DD0 /* EngPosition.c in Sources */,
 				EA3D03ED2BF6AF1800CC2DD0 /* MoveSelectionController.swift in Sources */,
 				EA3D03E42BF6AF1800CC2DD0 /* AnalysisInfo.swift in Sources */,
-				EA3D043B2BF796A600CC2DD0 /* EngMove.c in Sources */,
 				EA3D03E72BF6AF1800CC2DD0 /* MateDetector.swift in Sources */,
 				EA3D03E92BF6AF1800CC2DD0 /* GameState.swift in Sources */,
 				EA3D03E02BF6AF1800CC2DD0 /* MoveList.swift in Sources */,
-				EA3D04522BF8929300CC2DD0 /* EngCommon.c in Sources */,
 				EA3D03EC2BF6AF1800CC2DD0 /* ChessError.swift in Sources */,
 				EA3D03DC2BF6AF1800CC2DD0 /* GameStateDto.swift in Sources */,
 				EA3D03E82BF6AF1800CC2DD0 /* SquareInfo.swift in Sources */,
@@ -392,12 +345,10 @@
 				EA3D03DD2BF6AF1800CC2DD0 /* Notation.swift in Sources */,
 				EA3D03EE2BF6AF1800CC2DD0 /* InternalEvent.swift in Sources */,
 				EA3D03DE2BF6AF1800CC2DD0 /* MoveGenerator.swift in Sources */,
-				EA3D043F2BF7972800CC2DD0 /* EngPiece.c in Sources */,
 				EA3D03F42BF6AF1800CC2DD0 /* Player.swift in Sources */,
 				EA3D03EB2BF6AF1800CC2DD0 /* Position.swift in Sources */,
 				EA3D03F02BF6AF1800CC2DD0 /* Result.swift in Sources */,
 				EA3D03F12BF6AF1800CC2DD0 /* GameController.swift in Sources */,
-				EA3D04562BFA09AA00CC2DD0 /* EngMoveGenerator.c in Sources */,
 				EA3D03F52BF6AF1800CC2DD0 /* PlayerType.swift in Sources */,
 				EA3D03EF2BF6AF1800CC2DD0 /* RunMode.swift in Sources */,
 				EA3D03E12BF6AF1800CC2DD0 /* DefaultEvaluator.swift in Sources */,
@@ -405,29 +356,21 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		EA3D03F72BF6AFF600CC2DD0 /* Sources */ = {
+		EAEC09662C1F259E0035F2D1 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				EA3D04122BF6B04000CC2DD0 /* MoveGeneratorTests.swift in Sources */,
-				EA3D04142BF6B04000CC2DD0 /* MoveListTests.swift in Sources */,
-				EA3D04152BF6B04000CC2DD0 /* MateDetectorTests.swift in Sources */,
-				EA3D04102BF6B04000CC2DD0 /* GameStateTests.swift in Sources */,
-				EA3D04162BF6B04000CC2DD0 /* SquareInfoTests.swift in Sources */,
-				EA3D04482BF7B99B00CC2DD0 /* EngPieceTests.m in Sources */,
-				EA3D04182BF6B04000CC2DD0 /* NotationTests.swift in Sources */,
-				EA3D04132BF6B04000CC2DD0 /* PositionTests.swift in Sources */,
-				EA3D04172BF6B04000CC2DD0 /* CheckDetectorTests.swift in Sources */,
+				EAEC096D2C1F259E0035F2D1 /* ChessBETests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		EA3D04012BF6AFF600CC2DD0 /* PBXTargetDependency */ = {
+		EAEC09702C1F259E0035F2D1 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = EA3D03B02BF6AEBE00CC2DD0 /* ChessBE */;
-			targetProxy = EA3D04002BF6AFF600CC2DD0 /* PBXContainerItemProxy */;
+			targetProxy = EAEC096F2C1F259E0035F2D1 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -576,10 +519,9 @@
 			};
 			name = Release;
 		};
-		EA3D04032BF6AFF600CC2DD0 /* Debug */ = {
+		EAEC09722C1F259E0035F2D1 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = 4252B3HDL2;
@@ -594,10 +536,9 @@
 			};
 			name = Debug;
 		};
-		EA3D04042BF6AFF600CC2DD0 /* Release */ = {
+		EAEC09732C1F259E0035F2D1 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = 4252B3HDL2;
@@ -632,11 +573,11 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		EA3D04022BF6AFF600CC2DD0 /* Build configuration list for PBXNativeTarget "ChessBETests" */ = {
+		EAEC09712C1F259E0035F2D1 /* Build configuration list for PBXNativeTarget "ChessBETests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				EA3D04032BF6AFF600CC2DD0 /* Debug */,
-				EA3D04042BF6AFF600CC2DD0 /* Release */,
+				EAEC09722C1F259E0035F2D1 /* Debug */,
+				EAEC09732C1F259E0035F2D1 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
