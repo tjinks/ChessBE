@@ -19,7 +19,7 @@ static EngGameState *getGameState(void) {
         gsFreeList = gsFreeList->prev;
         return result;
     } else {
-        return getMem(sizeof(EngGameState));
+        return engGetMem(sizeof(EngGameState));
     }
 }
 

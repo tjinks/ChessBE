@@ -24,7 +24,7 @@ typedef enum {
     ,WhiteShort = 2
     ,BlackLong = 4
     ,BlackShort = 8
-} EngCastlingFlags
+} EngCastlingFlags;
 
 typedef struct {
     Piece board[64];

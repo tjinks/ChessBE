@@ -52,6 +52,8 @@
 		EA3D044E2BF88F3000CC2DD0 /* EngPosition.c in Sources */ = {isa = PBXBuildFile; fileRef = EA3D044C2BF88F3000CC2DD0 /* EngPosition.c */; };
 		EA3D04512BF8929300CC2DD0 /* EngCommon.h in Headers */ = {isa = PBXBuildFile; fileRef = EA3D044F2BF8929300CC2DD0 /* EngCommon.h */; };
 		EA3D04522BF8929300CC2DD0 /* EngCommon.c in Sources */ = {isa = PBXBuildFile; fileRef = EA3D04502BF8929300CC2DD0 /* EngCommon.c */; };
+		EA3D04552BFA09AA00CC2DD0 /* EngMoveGenerator.h in Headers */ = {isa = PBXBuildFile; fileRef = EA3D04532BFA09AA00CC2DD0 /* EngMoveGenerator.h */; };
+		EA3D04562BFA09AA00CC2DD0 /* EngMoveGenerator.c in Sources */ = {isa = PBXBuildFile; fileRef = EA3D04542BFA09AA00CC2DD0 /* EngMoveGenerator.c */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -112,6 +114,8 @@
 		EA3D044C2BF88F3000CC2DD0 /* EngPosition.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = EngPosition.c; sourceTree = "<group>"; };
 		EA3D044F2BF8929300CC2DD0 /* EngCommon.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = EngCommon.h; sourceTree = "<group>"; };
 		EA3D04502BF8929300CC2DD0 /* EngCommon.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = EngCommon.c; sourceTree = "<group>"; };
+		EA3D04532BFA09AA00CC2DD0 /* EngMoveGenerator.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = EngMoveGenerator.h; sourceTree = "<group>"; };
+		EA3D04542BFA09AA00CC2DD0 /* EngMoveGenerator.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = EngMoveGenerator.c; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -246,6 +250,8 @@
 				EA3D044C2BF88F3000CC2DD0 /* EngPosition.c */,
 				EA3D044F2BF8929300CC2DD0 /* EngCommon.h */,
 				EA3D04502BF8929300CC2DD0 /* EngCommon.c */,
+				EA3D04532BFA09AA00CC2DD0 /* EngMoveGenerator.h */,
+				EA3D04542BFA09AA00CC2DD0 /* EngMoveGenerator.c */,
 			);
 			path = engine;
 			sourceTree = "<group>";
@@ -267,6 +273,7 @@
 			files = (
 				EA3D04512BF8929300CC2DD0 /* EngCommon.h in Headers */,
 				EA3D043E2BF7972800CC2DD0 /* EngPiece.h in Headers */,
+				EA3D04552BFA09AA00CC2DD0 /* EngMoveGenerator.h in Headers */,
 				EA3D044D2BF88F3000CC2DD0 /* EngPosition.h in Headers */,
 				EA3D043A2BF796A600CC2DD0 /* EngMove.h in Headers */,
 			);
@@ -390,6 +397,7 @@
 				EA3D03EB2BF6AF1800CC2DD0 /* Position.swift in Sources */,
 				EA3D03F02BF6AF1800CC2DD0 /* Result.swift in Sources */,
 				EA3D03F12BF6AF1800CC2DD0 /* GameController.swift in Sources */,
+				EA3D04562BFA09AA00CC2DD0 /* EngMoveGenerator.c in Sources */,
 				EA3D03F52BF6AF1800CC2DD0 /* PlayerType.swift in Sources */,
 				EA3D03EF2BF6AF1800CC2DD0 /* RunMode.swift in Sources */,
 				EA3D03E12BF6AF1800CC2DD0 /* DefaultEvaluator.swift in Sources */,

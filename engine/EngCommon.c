@@ -9,7 +9,7 @@
 #include <stdio.h>
 #include "EngCommon.h"
 
-void *getMem(size_t required) {
+void *engGetMem(size_t required) {
     void *result = malloc(required);
     if (result) {
         return result;
@@ -19,7 +19,7 @@ void *getMem(size_t required) {
     exit(1);
 }
 
-void freeMem(void *p) {
+void engFreeMem(void *p) {
     free(p);
 }
 

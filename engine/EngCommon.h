@@ -8,8 +8,8 @@
 #ifndef EngCommon_h
 #define EngCommon_h
 
-void *getMem(size_t required);
+void *engGetMem(size_t required);
 
-void freeMem(void *p);
+void engFreeMem(void *p);
 
 #endif /* EngCommon_h */
