@@ -14,7 +14,7 @@ class MoveSelectionController {
         case waitingForPromotionDialog
     }
     
-    private var gameState: GameState?
+    private var game: EngGame?
     private var potentialMoves: [Move]?
     
     private var state = State.inactive
@@ -40,8 +40,8 @@ class MoveSelectionController {
         } else if let event = event as? InternalEvent {
             if state == .inactive {
                 switch event {
-                case .startHumanMoveSelection(let gameState):
-                    self.gameState = gameState
+                case .startHumanMoveSelection(let game):
+                    self.game = game
                     state = .beforeInitialSquareSelected
                 default:
                     break

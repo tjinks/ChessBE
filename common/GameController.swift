@@ -30,7 +30,7 @@ struct MoveSelected {
 public class GameController {
     private let dispatcher: EventDispatcher
     private var mode = RunMode.humanVsHuman
-    private var gameState: GameState? = nil
+    private var game: EngGame? = nil
     private var state = noopEventHandler
     private let aba = Aba()
     
@@ -58,7 +58,7 @@ public class GameController {
         dispatcher.register(processEvent)
         _ = MoveSelectionController(dispatcher: dispatcher)
         state = notPlaying
-        processEvent(GlobalEvent.setGameState(fen: Notation.initialPosition))
+        processEvent(GlobalEvent.setInitialGameState)
     }
     
     private func processEvent(_ event: Any) {
@@ -70,6 +70,10 @@ public class GameController {
             switch event {
             case .setGameState(let fen):
                 processSetGameState(fen)
+            case .setInitialGameState:
+                let position = engCreatePosition()
+                game = engStartGame(psoition)
+                
             case .setRunMode(let runMode):
                 mode = runMode
             case .startGame:

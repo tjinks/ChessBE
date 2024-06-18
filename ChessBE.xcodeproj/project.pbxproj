@@ -7,8 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		EA3D03DC2BF6AF1800CC2DD0 /* GameStateDto.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA3D03BF2BF6AF1800CC2DD0 /* GameStateDto.swift */; };
-		EA3D03DD2BF6AF1800CC2DD0 /* Notation.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA3D03C02BF6AF1800CC2DD0 /* Notation.swift */; };
 		EA3D03DE2BF6AF1800CC2DD0 /* MoveGenerator.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA3D03C22BF6AF1800CC2DD0 /* MoveGenerator.swift */; };
 		EA3D03DF2BF6AF1800CC2DD0 /* Move.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA3D03C32BF6AF1800CC2DD0 /* Move.swift */; };
 		EA3D03E02BF6AF1800CC2DD0 /* MoveList.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA3D03C42BF6AF1800CC2DD0 /* MoveList.swift */; };
@@ -22,7 +20,6 @@
 		EA3D03E82BF6AF1800CC2DD0 /* SquareInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA3D03CC2BF6AF1800CC2DD0 /* SquareInfo.swift */; };
 		EA3D03E92BF6AF1800CC2DD0 /* GameState.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA3D03CD2BF6AF1800CC2DD0 /* GameState.swift */; };
 		EA3D03EA2BF6AF1800CC2DD0 /* AttackDetector.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA3D03CE2BF6AF1800CC2DD0 /* AttackDetector.swift */; };
-		EA3D03EB2BF6AF1800CC2DD0 /* Position.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA3D03CF2BF6AF1800CC2DD0 /* Position.swift */; };
 		EA3D03EC2BF6AF1800CC2DD0 /* ChessError.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA3D03D12BF6AF1800CC2DD0 /* ChessError.swift */; };
 		EA3D03ED2BF6AF1800CC2DD0 /* MoveSelectionController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA3D03D22BF6AF1800CC2DD0 /* MoveSelectionController.swift */; };
 		EA3D03EE2BF6AF1800CC2DD0 /* InternalEvent.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA3D03D32BF6AF1800CC2DD0 /* InternalEvent.swift */; };
@@ -31,11 +28,12 @@
 		EA3D03F12BF6AF1800CC2DD0 /* GameController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA3D03D62BF6AF1800CC2DD0 /* GameController.swift */; };
 		EA3D03F22BF6AF1800CC2DD0 /* Square.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA3D03D72BF6AF1800CC2DD0 /* Square.swift */; };
 		EA3D03F32BF6AF1800CC2DD0 /* GlobalEvent.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA3D03D82BF6AF1800CC2DD0 /* GlobalEvent.swift */; };
-		EA3D03F42BF6AF1800CC2DD0 /* Player.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA3D03D92BF6AF1800CC2DD0 /* Player.swift */; };
 		EA3D03F52BF6AF1800CC2DD0 /* PlayerType.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA3D03DA2BF6AF1800CC2DD0 /* PlayerType.swift */; };
 		EA3D03F62BF6AF1800CC2DD0 /* EventDispatcher.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA3D03DB2BF6AF1800CC2DD0 /* EventDispatcher.swift */; };
 		EAEC096D2C1F259E0035F2D1 /* ChessBETests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAEC096C2C1F259E0035F2D1 /* ChessBETests.swift */; };
 		EAEC096E2C1F259E0035F2D1 /* libChessBE.a in Frameworks */ = {isa = PBXBuildFile; fileRef = EA3D03B12BF6AEBE00CC2DD0 /* libChessBE.a */; };
+		EAEC09752C21CB490035F2D1 /* GameWrapper.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAEC09742C21CB490035F2D1 /* GameWrapper.swift */; };
+		EAEC09772C21CC480035F2D1 /* Engine.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAEC09762C21CC480035F2D1 /* Engine.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -64,8 +62,6 @@
 
 /* Begin PBXFileReference section */
 		EA3D03B12BF6AEBE00CC2DD0 /* libChessBE.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libChessBE.a; sourceTree = BUILT_PRODUCTS_DIR; };
-		EA3D03BF2BF6AF1800CC2DD0 /* GameStateDto.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GameStateDto.swift; sourceTree = "<group>"; };
-		EA3D03C02BF6AF1800CC2DD0 /* Notation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Notation.swift; sourceTree = "<group>"; };
 		EA3D03C22BF6AF1800CC2DD0 /* MoveGenerator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MoveGenerator.swift; sourceTree = "<group>"; };
 		EA3D03C32BF6AF1800CC2DD0 /* Move.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Move.swift; sourceTree = "<group>"; };
 		EA3D03C42BF6AF1800CC2DD0 /* MoveList.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MoveList.swift; sourceTree = "<group>"; };
@@ -79,7 +75,6 @@
 		EA3D03CC2BF6AF1800CC2DD0 /* SquareInfo.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SquareInfo.swift; sourceTree = "<group>"; };
 		EA3D03CD2BF6AF1800CC2DD0 /* GameState.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GameState.swift; sourceTree = "<group>"; };
 		EA3D03CE2BF6AF1800CC2DD0 /* AttackDetector.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AttackDetector.swift; sourceTree = "<group>"; };
-		EA3D03CF2BF6AF1800CC2DD0 /* Position.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Position.swift; sourceTree = "<group>"; };
 		EA3D03D12BF6AF1800CC2DD0 /* ChessError.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ChessError.swift; sourceTree = "<group>"; };
 		EA3D03D22BF6AF1800CC2DD0 /* MoveSelectionController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MoveSelectionController.swift; sourceTree = "<group>"; };
 		EA3D03D32BF6AF1800CC2DD0 /* InternalEvent.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = InternalEvent.swift; sourceTree = "<group>"; };
@@ -88,13 +83,14 @@
 		EA3D03D62BF6AF1800CC2DD0 /* GameController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GameController.swift; sourceTree = "<group>"; };
 		EA3D03D72BF6AF1800CC2DD0 /* Square.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Square.swift; sourceTree = "<group>"; };
 		EA3D03D82BF6AF1800CC2DD0 /* GlobalEvent.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GlobalEvent.swift; sourceTree = "<group>"; };
-		EA3D03D92BF6AF1800CC2DD0 /* Player.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Player.swift; sourceTree = "<group>"; };
 		EA3D03DA2BF6AF1800CC2DD0 /* PlayerType.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PlayerType.swift; sourceTree = "<group>"; };
 		EA3D03DB2BF6AF1800CC2DD0 /* EventDispatcher.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EventDispatcher.swift; sourceTree = "<group>"; };
 		EA3D04202BF73D4D00CC2DD0 /* BridgingHeader.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BridgingHeader.h; sourceTree = "<group>"; };
 		EAEC09552C1F214D0035F2D1 /* ChessEngine.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = ChessEngine.xcodeproj; path = ../ChessEngine/ChessEngine.xcodeproj; sourceTree = "<group>"; };
 		EAEC096A2C1F259E0035F2D1 /* ChessBETests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ChessBETests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		EAEC096C2C1F259E0035F2D1 /* ChessBETests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChessBETests.swift; sourceTree = "<group>"; };
+		EAEC09742C21CB490035F2D1 /* GameWrapper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameWrapper.swift; sourceTree = "<group>"; };
+		EAEC09762C21CC480035F2D1 /* Engine.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Engine.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -123,7 +119,6 @@
 				EA3D04202BF73D4D00CC2DD0 /* BridgingHeader.h */,
 				EA3D03D02BF6AF1800CC2DD0 /* common */,
 				EA3D03C12BF6AF1800CC2DD0 /* engine-orig */,
-				EA3D03BE2BF6AF1800CC2DD0 /* model */,
 				EAEC096B2C1F259E0035F2D1 /* ChessBETests */,
 				EA3D03B22BF6AEBE00CC2DD0 /* Products */,
 			);
@@ -136,15 +131,6 @@
 				EAEC096A2C1F259E0035F2D1 /* ChessBETests.xctest */,
 			);
 			name = Products;
-			sourceTree = "<group>";
-		};
-		EA3D03BE2BF6AF1800CC2DD0 /* model */ = {
-			isa = PBXGroup;
-			children = (
-				EA3D03BF2BF6AF1800CC2DD0 /* GameStateDto.swift */,
-				EA3D03C02BF6AF1800CC2DD0 /* Notation.swift */,
-			);
-			path = model;
 			sourceTree = "<group>";
 		};
 		EA3D03C12BF6AF1800CC2DD0 /* engine-orig */ = {
@@ -163,7 +149,6 @@
 				EA3D03CC2BF6AF1800CC2DD0 /* SquareInfo.swift */,
 				EA3D03CD2BF6AF1800CC2DD0 /* GameState.swift */,
 				EA3D03CE2BF6AF1800CC2DD0 /* AttackDetector.swift */,
-				EA3D03CF2BF6AF1800CC2DD0 /* Position.swift */,
 			);
 			path = "engine-orig";
 			sourceTree = "<group>";
@@ -179,9 +164,10 @@
 				EA3D03D62BF6AF1800CC2DD0 /* GameController.swift */,
 				EA3D03D72BF6AF1800CC2DD0 /* Square.swift */,
 				EA3D03D82BF6AF1800CC2DD0 /* GlobalEvent.swift */,
-				EA3D03D92BF6AF1800CC2DD0 /* Player.swift */,
 				EA3D03DA2BF6AF1800CC2DD0 /* PlayerType.swift */,
 				EA3D03DB2BF6AF1800CC2DD0 /* EventDispatcher.swift */,
+				EAEC09742C21CB490035F2D1 /* GameWrapper.swift */,
+				EAEC09762C21CC480035F2D1 /* Engine.swift */,
 			);
 			path = common;
 			sourceTree = "<group>";
@@ -327,6 +313,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				EA3D03E52BF6AF1800CC2DD0 /* BasicEndgameEvaluators.swift in Sources */,
+				EAEC09772C21CC480035F2D1 /* Engine.swift in Sources */,
 				EA3D03F62BF6AF1800CC2DD0 /* EventDispatcher.swift in Sources */,
 				EA3D03F22BF6AF1800CC2DD0 /* Square.swift in Sources */,
 				EA3D03E32BF6AF1800CC2DD0 /* Aba.swift in Sources */,
@@ -339,14 +326,11 @@
 				EA3D03E92BF6AF1800CC2DD0 /* GameState.swift in Sources */,
 				EA3D03E02BF6AF1800CC2DD0 /* MoveList.swift in Sources */,
 				EA3D03EC2BF6AF1800CC2DD0 /* ChessError.swift in Sources */,
-				EA3D03DC2BF6AF1800CC2DD0 /* GameStateDto.swift in Sources */,
 				EA3D03E82BF6AF1800CC2DD0 /* SquareInfo.swift in Sources */,
 				EA3D03EA2BF6AF1800CC2DD0 /* AttackDetector.swift in Sources */,
-				EA3D03DD2BF6AF1800CC2DD0 /* Notation.swift in Sources */,
 				EA3D03EE2BF6AF1800CC2DD0 /* InternalEvent.swift in Sources */,
 				EA3D03DE2BF6AF1800CC2DD0 /* MoveGenerator.swift in Sources */,
-				EA3D03F42BF6AF1800CC2DD0 /* Player.swift in Sources */,
-				EA3D03EB2BF6AF1800CC2DD0 /* Position.swift in Sources */,
+				EAEC09752C21CB490035F2D1 /* GameWrapper.swift in Sources */,
 				EA3D03F02BF6AF1800CC2DD0 /* Result.swift in Sources */,
 				EA3D03F12BF6AF1800CC2DD0 /* GameController.swift in Sources */,
 				EA3D03F52BF6AF1800CC2DD0 /* PlayerType.swift in Sources */,

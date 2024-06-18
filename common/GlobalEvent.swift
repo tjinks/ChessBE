@@ -12,15 +12,16 @@ public enum GlobalEvent {
     case shutdownRequested
     case shutdownInProgress
     case setGameState(fen: String)
+    case setInitialGameState
     case startGame
     case setRunMode(runMode: RunMode)
-    case showGameState(state: GameStateDto)
+    case showGameState(position: EngPosition)
     case showHighlights(highlights: [Int])
-    case gameOver(result: Result)
+    case gameOver(result: EngGameResult)
     case showError(message: String)
     case confirm(message: String, callback: (Bool) -> ())
     case showPromotionDialog
-    case promoteTo(piece: PieceType)
+    case promoteTo(piece: EngPieceType)
     case squareClicked(square: Int)
 }
 

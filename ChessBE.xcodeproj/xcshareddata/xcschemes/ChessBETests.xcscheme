@@ -18,7 +18,7 @@
             parallelizable = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "EA3D03FA2BF6AFF600CC2DD0"
+               BlueprintIdentifier = "EAEC09692C1F259E0035F2D1"
                BuildableName = "ChessBETests.xctest"
                BlueprintName = "ChessBETests"
                ReferencedContainer = "container:ChessBE.xcodeproj">
