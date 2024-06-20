@@ -8,8 +8,6 @@
 
 /* Begin PBXBuildFile section */
 		EA3D03DE2BF6AF1800CC2DD0 /* MoveGenerator.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA3D03C22BF6AF1800CC2DD0 /* MoveGenerator.swift */; };
-		EA3D03DF2BF6AF1800CC2DD0 /* Move.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA3D03C32BF6AF1800CC2DD0 /* Move.swift */; };
-		EA3D03E02BF6AF1800CC2DD0 /* MoveList.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA3D03C42BF6AF1800CC2DD0 /* MoveList.swift */; };
 		EA3D03E12BF6AF1800CC2DD0 /* DefaultEvaluator.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA3D03C52BF6AF1800CC2DD0 /* DefaultEvaluator.swift */; };
 		EA3D03E22BF6AF1800CC2DD0 /* Piece.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA3D03C62BF6AF1800CC2DD0 /* Piece.swift */; };
 		EA3D03E32BF6AF1800CC2DD0 /* Aba.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA3D03C72BF6AF1800CC2DD0 /* Aba.swift */; };
@@ -63,8 +61,6 @@
 /* Begin PBXFileReference section */
 		EA3D03B12BF6AEBE00CC2DD0 /* libChessBE.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libChessBE.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		EA3D03C22BF6AF1800CC2DD0 /* MoveGenerator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MoveGenerator.swift; sourceTree = "<group>"; };
-		EA3D03C32BF6AF1800CC2DD0 /* Move.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Move.swift; sourceTree = "<group>"; };
-		EA3D03C42BF6AF1800CC2DD0 /* MoveList.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MoveList.swift; sourceTree = "<group>"; };
 		EA3D03C52BF6AF1800CC2DD0 /* DefaultEvaluator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DefaultEvaluator.swift; sourceTree = "<group>"; };
 		EA3D03C62BF6AF1800CC2DD0 /* Piece.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Piece.swift; sourceTree = "<group>"; };
 		EA3D03C72BF6AF1800CC2DD0 /* Aba.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Aba.swift; sourceTree = "<group>"; };
@@ -137,8 +133,6 @@
 			isa = PBXGroup;
 			children = (
 				EA3D03C22BF6AF1800CC2DD0 /* MoveGenerator.swift */,
-				EA3D03C32BF6AF1800CC2DD0 /* Move.swift */,
-				EA3D03C42BF6AF1800CC2DD0 /* MoveList.swift */,
 				EA3D03C52BF6AF1800CC2DD0 /* DefaultEvaluator.swift */,
 				EA3D03C62BF6AF1800CC2DD0 /* Piece.swift */,
 				EA3D03C72BF6AF1800CC2DD0 /* Aba.swift */,
@@ -318,13 +312,11 @@
 				EA3D03F22BF6AF1800CC2DD0 /* Square.swift in Sources */,
 				EA3D03E32BF6AF1800CC2DD0 /* Aba.swift in Sources */,
 				EA3D03E62BF6AF1800CC2DD0 /* EvaluationSupport.swift in Sources */,
-				EA3D03DF2BF6AF1800CC2DD0 /* Move.swift in Sources */,
 				EA3D03E22BF6AF1800CC2DD0 /* Piece.swift in Sources */,
 				EA3D03ED2BF6AF1800CC2DD0 /* MoveSelectionController.swift in Sources */,
 				EA3D03E42BF6AF1800CC2DD0 /* AnalysisInfo.swift in Sources */,
 				EA3D03E72BF6AF1800CC2DD0 /* MateDetector.swift in Sources */,
 				EA3D03E92BF6AF1800CC2DD0 /* GameState.swift in Sources */,
-				EA3D03E02BF6AF1800CC2DD0 /* MoveList.swift in Sources */,
 				EA3D03EC2BF6AF1800CC2DD0 /* ChessError.swift in Sources */,
 				EA3D03E82BF6AF1800CC2DD0 /* SquareInfo.swift in Sources */,
 				EA3D03EA2BF6AF1800CC2DD0 /* AttackDetector.swift in Sources */,
