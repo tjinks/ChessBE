@@ -7,7 +7,7 @@
 
 import Foundation
 
-
+#if false
 class MoveGenerator {
     private let position: Position
     private var result: [Move]
@@ -209,3 +209,4 @@ class MoveGenerator {
         }
     }
 }
+#endif

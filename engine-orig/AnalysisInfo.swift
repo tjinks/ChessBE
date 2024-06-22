@@ -7,6 +7,7 @@
 
 import Foundation
 
+#if false
 struct AnalysisInfo {
     let gameState: GameState
     let position: Position
@@ -50,6 +51,7 @@ fileprivate func countPieces(_ position: Position) -> (PieceCounts, Int) {
     
     return (pieceCounts, totalPieces)
 }
+#endif
 
 
 

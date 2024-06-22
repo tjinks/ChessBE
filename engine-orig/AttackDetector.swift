@@ -7,6 +7,7 @@
 
 import Foundation
 
+#if false
 extension Position {
     func isInCheck(player: Player) -> Bool {
         return isAttacked(square: kingSquare[player.index], by: player.other)
@@ -103,3 +104,4 @@ extension Position {
         }
     }
 }
+#endif

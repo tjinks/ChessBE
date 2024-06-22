@@ -10,7 +10,7 @@ import Foundation
 enum ChessError : Error {
     case internalError(message: String)
     case invalidSquare
-    case invalidFen
+    case invalidFen(message: String)
     case missingKing
     case duplicateKing
 }

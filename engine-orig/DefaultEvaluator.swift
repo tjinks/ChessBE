@@ -7,6 +7,7 @@
 
 import Foundation
 
+#if false
 struct DefaultEvaluator : Evaluator {
     let materialScale = 1.0
     let mobilityScale = 0.1
@@ -55,3 +56,4 @@ struct DefaultEvaluator : Evaluator {
         return result
     }
 }
+#endif

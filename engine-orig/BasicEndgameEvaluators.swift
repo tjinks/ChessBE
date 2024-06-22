@@ -7,6 +7,7 @@
 
 import Foundation
 
+#if false
 struct MajorPieceAndKingVsKingEvaluator : Evaluator {
     func isApplicable(_ analysisInfo: AnalysisInfo) -> Bool {
         var activePlayerHasMajorPiece = false
@@ -80,3 +81,4 @@ struct MajorPieceAndKingVsKingEvaluator : Evaluator {
         return playerToMove == attacker ? result : -result
     }
 }
+#endif

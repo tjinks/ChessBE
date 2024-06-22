@@ -9,5 +9,5 @@ import Foundation
 
 enum InternalEvent {
     case moveSelected(move: Move)
-    case startHumanMoveSelection(game: EngGame)
+    case startHumanMoveSelection(game: Game)
 }

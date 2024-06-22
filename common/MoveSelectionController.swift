@@ -14,11 +14,11 @@ class MoveSelectionController {
         case waitingForPromotionDialog
     }
     
-    private var game: EngGame?
-    private var potentialMoves: [Move]?
+    private var game: Game? = nil
     
     private var state = State.inactive
-    private var initialSquare: Int = -1
+    private var initialSquare: Int? = nil
+    private var promotionSquare: Int? = nil
     
     private let dispatcher: EventDispatcher
     
@@ -33,7 +33,7 @@ class MoveSelectionController {
             case .squareClicked(let square):
                 processClick(square: square)
             case .promoteTo(let pieceType):
-                processPromotion(to: pieceType)
+                processPromotion(promoteTo: pieceType)
             default:
                 break
             }
@@ -53,48 +53,43 @@ class MoveSelectionController {
     private func processClick(square: Int) {
         switch state {
         case .beforeInitialSquareSelected:
-            let potentialMoves = getMovesStartingFrom(square)
-            if potentialMoves.count > 0 {
-                var highlights = potentialMoves.map { return $0.to }
-                highlights.append(square)
-                self.potentialMoves = potentialMoves
+            let highlights = game!.getTargets(from: square)
+            if highlights.count > 0 {
+                initialSquare = square
                 state = .afterInitialSquareSelected
                 dispatcher.dispatch(GlobalEvent.showHighlights(highlights: highlights))
             } else {
+                initialSquare = nil
                 dispatcher.dispatch(GlobalEvent.showHighlights(highlights: []))
             }
-
+            
         case .afterInitialSquareSelected:
             let moves = getMovesEndingAt(square)
-            if moves.count > 0 {
+            if moves.size > 0 {
                 let move = moves[0]
-                switch move {
-                case .normal(_, _, let promoteTo):
-                    if promoteTo != nil {
-                        potentialMoves = moves
-                        state = .waitingForPromotionDialog
-                        dispatcher.dispatch(GlobalEvent.showPromotionDialog)
-                        return
-                    }
-                default:
-                    break
+                initialSquare = move.primaryPieceMove.from
+                if let promoteTo = move.promoteTo {
+                    promotionSquare = square
+                    state = .waitingForPromotionDialog
+                    dispatcher.dispatch(GlobalEvent.showPromotionDialog)
+                    return
+                } else {
+                    dispatchMove(move)
                 }
-
-                dispatchMove(move)
             } else {
                 state = .beforeInitialSquareSelected
                 processClick(square: square)
             }
-
+            
         default:
             break
         }
     }
     
-    private func processPromotion(to: PieceType) {
+    private func processPromotion(promoteTo: EngPieceType) {
         switch state {
         case .waitingForPromotionDialog:
-            let promotionMove = getPromotionMove(matching: to)
+            let promotionMove = getPromotionMove(matching: promoteTo)
             dispatchMove(promotionMove)
         default:
             break
@@ -106,32 +101,21 @@ class MoveSelectionController {
         dispatcher.dispatch(InternalEvent.moveSelected(move: move))
     }
     
-    private func getPromotionMove(matching: PieceType) -> Move {
-        let playerToMove = gameState!.currentPosition.playerToMove
-        let piece = Piece(playerToMove, matching)
-        let matching = potentialMoves!.filter {
-            switch $0 {
-            case .normal(_, _, let promoteTo):
-                return piece == promoteTo
-            default:
-                return false
+    private func getPromotionMove(matching: EngPieceType) -> Move {
+        let playerToMove = game!.position.playerToMove
+        let piece = engMakePiece(playerToMove, matching)
+        let promotionMoves = game!.getMoves(from: initialSquare!, to: promotionSquare!)
+        for i in 0..<promotionMoves.size {
+            let promotionPieceType = promotionMoves[i].promoteTo!.type
+            if promotionPieceType == matching {
+                return promotionMoves[i]
             }
         }
-
-        return matching[0]
+        
+        return promotionMoves[0]
     }
     
-    private func getMovesStartingFrom(_ square: Int) -> [Move] {
-        let position = gameState!.currentPosition
-        let moves = MoveGenerator.run(position: position, player: position.playerToMove)
-        return moves.filter {
-            return $0.from == square
-        }
-    }
-    
-    private func getMovesEndingAt(_ square: Int) -> [Move] {
-        return potentialMoves!.filter {
-            return $0.to == square
-        }
+    private func getMovesEndingAt(_ square: Int) -> MoveList {
+        return game!.getMoves(from: initialSquare!, to: square)
     }
 }

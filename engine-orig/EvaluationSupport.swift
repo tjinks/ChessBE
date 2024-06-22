@@ -7,6 +7,8 @@
 
 import Foundation
 
+#if false
+
 let winEvaluation = 1e6
 let lossEvaluation = -winEvaluation
 let drawEvaluation = 0.0
@@ -104,3 +106,4 @@ func calculateNetPieceMobility(analysisInfo: AnalysisInfo) ->  Int {
     
     return pieceMoveCounter(analysisInfo.activePlayerMoves) - pieceMoveCounter(analysisInfo.passivePlayerMoves)
 }
+#endif

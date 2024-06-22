@@ -23,15 +23,14 @@ public class Position {
         self.engPosition = engPosition
     }
     
-    static func parseFen(fen: String, errorMessage: inout String) -> Position? {
-        errorMessage = ""
+    public static func parseFen(fen: String) throws -> Position {
         let result = engParseFen(fen)
         if result.success {
             return Position(engPosition: result.position)
         } else {
-            errorMessage = String(cString: result.errorMessage)
+            let errorMessage = String(cString: result.errorMessage)
             engFreeString(result.errorMessage)
-            return nil
+            throw ChessError.invalidFen(message: errorMessage)
         }
     }
     
@@ -101,6 +100,10 @@ class Game {
         game = engStartGame(position.engPosition)
     }
     
+    init(engPosition: EngPositionPtr) {
+        game = engStartGame(engPosition)
+    }
+    
     var position: Position {
         get {
             let engPosition = engGetCurrentPosition(game)
@@ -126,8 +129,24 @@ class Game {
         return MoveList(moveList: moveList!)
     }
     
+    func getResult() -> EngGameResult {
+        return engGetResult(game);
+    }
+    
     deinit {
         engFreeGame(game)
+    }
+}
+
+public struct PieceMove {
+    let piece: EngPiece
+    let from: Int
+    let to: Int
+    
+    init(_ m: EngPieceMove) {
+        piece = m.piece
+        from = Int(m.from)
+        to = Int(m.to)
     }
 }
 
@@ -136,6 +155,42 @@ public class Move {
     
     init(move: EngMovePtr) {
         self.move = move
+    }
+    
+    var primaryPieceMove: PieceMove {
+        get {
+            let primary = move.pointee.primary
+            return PieceMove(primary)
+        }
+    }
+    
+    var secondaryPieceMove: PieceMove? {
+        get {
+            let secondary = move.pointee.secondary
+            if secondary.piece == NoPiece {
+                return nil
+            } else {
+                return PieceMove(secondary)
+            }
+        }
+    }
+    
+    var promoteTo: EngPiece? {
+        get {
+            if move.pointee.promoteTo == NoPiece {
+                return nil
+            } else {
+                return move.pointee.promoteTo
+            }
+        }
+    }
+    
+    var epCaptureSquare: Int? {
+        if move.pointee.epCaptureSquare == EngNoSquare {
+            return nil
+        } else {
+            return Int(move.pointee.epCaptureSquare)
+        }
     }
     
     public func makeMove() {
@@ -169,5 +224,15 @@ public class MoveList {
     
     deinit {
         engFreeMoveList(moveList)
+    }
+}
+
+public extension EngPiece {
+    var type: EngPieceType {
+        return engGetPieceType(self)
+    }
+    
+    var owner: EngPlayer {
+        return engGetOwner(self)
     }
 }

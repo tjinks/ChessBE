@@ -29,10 +29,6 @@ public func squareNum(file: Int, rank: Int) -> Int {
     return file + 8 * rank
 }
 
-public func squareNum(name: String) throws -> Int {
-    return try Notation.parseSquareName(name: name)
-}
-
 public func forAllSquares(callback: (Int) throws -> Bool) throws {
     for i in 0...63 {
         if !(try callback(i)) {

@@ -7,6 +7,8 @@
 
 import Foundation
 
+#if false
+
 enum MateCheckResult {
     case none, checkmate, stalemate
 }
@@ -25,3 +27,5 @@ extension Position {
         }
     }
 }
+
+#endif

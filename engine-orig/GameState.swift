@@ -7,6 +7,7 @@
 
 import Foundation
 
+#if false
 class GameState {
     struct HistoryItem {
         let position: Position
@@ -150,3 +151,4 @@ extension GameState {
         return .none
     }
 }
+#endif

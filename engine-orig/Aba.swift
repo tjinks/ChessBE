@@ -7,6 +7,7 @@
 
 import Foundation
 
+#if false
 let majorPieceAndKingVsKingEvaluator = MajorPieceAndKingVsKingEvaluator()
 let defaultEvaluator = DefaultEvaluator()
 
@@ -23,6 +24,7 @@ struct Progress {
 }
 
 let progressInterval = 100
+#endif
 
 protocol MoveSelectionObserver {
     func reportProgress(_ progress: Progress)
@@ -30,6 +32,7 @@ protocol MoveSelectionObserver {
     func selectionAborted()
 }
 
+#if false
 class Aba {
     private let maxPlySupported = 6
     private let lock = NSLock()
@@ -219,3 +222,4 @@ class Aba {
         return defaultEvaluator.evaluate
     }
 }
+#endif

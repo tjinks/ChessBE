@@ -7,6 +7,7 @@
 
 import Foundation
 
+#if false
 extension Player {
     var other: Player {
         switch self {
@@ -71,5 +72,6 @@ extension PieceType {
         return self == .bishop || self == .queen
     }
 }
+#endif
 
 
