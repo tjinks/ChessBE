@@ -99,7 +99,7 @@ public class GameController {
             switch event {
             case .moveSelected(let move):
                 let result = onMoveSelected(move)
-                if result == .none {
+                if result == NoResult {
                     state = playingComputerVsHumanComputerMove(event:)
                     // TODO aba.startMoveSelection(gameState: gameState, observer: observer)
                 } else {
@@ -136,7 +136,7 @@ public class GameController {
             switch event {
             case .moveSelected(let move):
                 let result = onMoveSelected(move)
-                if result == .none {
+                if result == NoResult {
                     dispatcher.dispatch(InternalEvent.startHumanMoveSelection(game: game))
                 } else {
                     state = notPlaying

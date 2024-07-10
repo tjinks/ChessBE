@@ -113,7 +113,7 @@ class Game {
     
     func getTargets(from: Int) -> [Int] {
         let resultMask = engGetTargets(game, EngSquare(from))
-        var bitMask = EngSquareMask(1)
+        let bitMask = EngSquareMask(1)
         var result = [Int]()
         for i in 0..<64 {
             if ((bitMask << i) & resultMask) != 0 {
