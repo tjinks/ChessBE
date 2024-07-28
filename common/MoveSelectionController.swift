@@ -68,7 +68,7 @@ class MoveSelectionController {
             if moves.size > 0 {
                 let move = moves[0]
                 initialSquare = move.primaryPieceMove.from
-                if let promoteTo = move.promoteTo {
+                if move.promoteTo != nil {
                     promotionSquare = square
                     state = .waitingForPromotionDialog
                     dispatcher.dispatch(GlobalEvent.showPromotionDialog)
@@ -103,7 +103,6 @@ class MoveSelectionController {
     
     private func getPromotionMove(matching: EngPieceType) -> Move {
         let playerToMove = game!.position.playerToMove
-        let piece = engMakePiece(playerToMove, matching)
         let promotionMoves = game!.getMoves(from: initialSquare!, to: promotionSquare!)
         for i in 0..<promotionMoves.size {
             let promotionPieceType = promotionMoves[i].promoteTo!.type

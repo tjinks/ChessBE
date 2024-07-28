@@ -15,7 +15,7 @@ typealias EngGamePtr = UnsafeMutablePointer<EngGame>
 public class Position {
     fileprivate let engPosition: EngPositionPtr
 
-    init() {
+    public init() {
         engPosition = engCreatePosition()
     }
     
@@ -234,5 +234,18 @@ public extension EngPiece {
     
     var owner: EngPlayer {
         return engGetOwner(self)
+    }
+}
+
+public extension EngPlayer {
+    var opponent: EngPlayer {
+        switch self {
+        case White:
+            return Black;
+        case Black:
+            return White;
+        default:
+            return NoPlayer;
+        }
     }
 }

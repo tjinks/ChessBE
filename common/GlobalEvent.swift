@@ -17,7 +17,7 @@ public enum GlobalEvent {
     case setRunMode(runMode: RunMode)
     case showGameState(position: Position)
     case showHighlights(highlights: [Int])
-    case gameOver(result: EngGameResult)
+    case gameOver(result: EngGameResult, winner: EngPlayer)
     case showError(message: String)
     case confirm(message: String, callback: (Bool) -> ())
     case showPromotionDialog

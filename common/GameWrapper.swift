@@ -14,7 +14,9 @@ class GameWrapper {
         game = engStartGame(position)
     }
     
-    
+    init(game: UnsafeMutablePointer<EngGame>) {
+        self.game = game
+    }
     
     deinit {
         engFreeGame(game)

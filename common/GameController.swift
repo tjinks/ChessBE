@@ -117,7 +117,7 @@ public class GameController {
             switch event {
             case .moveSelected(let move):
                 let result = onMoveSelected(move)
-                if result == .none {
+                if result != NoResult {
                     state = playingComputerVsHumanHumanMove
                     dispatcher.dispatch(InternalEvent.startHumanMoveSelection(game: game))
                 } else {
@@ -154,13 +154,20 @@ public class GameController {
     private func onMoveSelected(_ move: Move) -> EngGameResult {
         let game = game!
         move.makeMove()
-        dispatcher.dispatch(GlobalEvent.showGameState(position: game.position))
+        let position = game.position
+        dispatcher.dispatch(GlobalEvent.showGameState(position: position))
         let result = game.getResult()
-        if result != NoResult {
-            dispatcher.dispatch(GlobalEvent.gameOver(result: result))
+        switch result {
+        case WinOnTime, WinByCheckmate:
+            dispatcher.dispatch(GlobalEvent.gameOver(result: result, winner: position.playerToMove.opponent))
             state = notPlaying
+        case DrawByStalemate, DrawByRepetition, DrawBy50MoveRule:
+            dispatcher.dispatch(GlobalEvent.gameOver(result: result, winner: NoPlayer))
+            state = notPlaying
+        default:
+            break
         }
-        
+
         return result
     }
     

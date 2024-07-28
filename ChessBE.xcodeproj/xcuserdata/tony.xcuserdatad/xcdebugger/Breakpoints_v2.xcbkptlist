@@ -14,10 +14,2001 @@
             filePath = "../ChessEngine/ChessEngineTests/MoveGeneratorTests.m"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "240"
-            endingLineNumber = "240"
-            landmarkName = "runCastlingTest(fen, player, checker)"
+            startingLineNumber = "245"
+            endingLineNumber = "245"
+            landmarkName = "-testBlackPawnMoves"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "963887EB-121A-42D5-B0DF-D5F753C8B995"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "../ChessEngine/ChessEngineTests/PublicTests.m"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "108"
+            endingLineNumber = "108"
+            landmarkName = "-testEngGetResultCheckmate"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "093B69D2-8C31-4DC1-9B23-6F91C1FA6C50"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "../ChessEngine/ChessEngineTests/GameStateTests.m"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "277"
+            endingLineNumber = "277"
+            landmarkName = "-testPositionHashPlayerToMove"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "093B69D2-8C31-4DC1-9B23-6F91C1FA6C50 - 406c247524009de5"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "-[GameStateTests testPositionHashPtm]"
+                  moduleName = "ChessEngineTests"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/tony/Documents/XCode/TjChess/ChessEngine/ChessEngineTests/GameStateTests.m"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "55"
+                  endingLineNumber = "55"
+                  offsetFromSymbolStart = "588">
+               </Location>
+               <Location
+                  uuid = "093B69D2-8C31-4DC1-9B23-6F91C1FA6C50 - 406c247524009de5"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "-[GameStateTests testPositionHashPtm]"
+                  moduleName = "ChessEngineTests"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/tony/Documents/XCode/TjChess/ChessEngine/ChessEngineTests/GameStateTests.m"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "55"
+                  endingLineNumber = "55"
+                  offsetFromSymbolStart = "640">
+               </Location>
+               <Location
+                  uuid = "093B69D2-8C31-4DC1-9B23-6F91C1FA6C50 - 406c247524009de5"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "-[GameStateTests testPositionHashPtm]"
+                  moduleName = "ChessEngineTests"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/tony/Documents/XCode/TjChess/ChessEngine/ChessEngineTests/GameStateTests.m"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "55"
+                  endingLineNumber = "55"
+                  offsetFromSymbolStart = "1720">
+               </Location>
+               <Location
+                  uuid = "093B69D2-8C31-4DC1-9B23-6F91C1FA6C50 - 406c247524009de5"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "-[GameStateTests testPositionHashPtm]"
+                  moduleName = "ChessEngineTests"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/tony/Documents/XCode/TjChess/ChessEngine/ChessEngineTests/GameStateTests.m"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "55"
+                  endingLineNumber = "55"
+                  offsetFromSymbolStart = "1760">
+               </Location>
+               <Location
+                  uuid = "093B69D2-8C31-4DC1-9B23-6F91C1FA6C50 - 406c247524009de5"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "-[GameStateTests testPositionHashPtm]"
+                  moduleName = "ChessEngineTests"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/tony/Documents/XCode/TjChess/ChessEngine/ChessEngineTests/GameStateTests.m"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "55"
+                  endingLineNumber = "55"
+                  offsetFromSymbolStart = "1824">
+               </Location>
+               <Location
+                  uuid = "093B69D2-8C31-4DC1-9B23-6F91C1FA6C50 - 406c247524009de5"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "-[GameStateTests testPositionHashPtm]"
+                  moduleName = "ChessEngineTests"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/tony/Documents/XCode/TjChess/ChessEngine/ChessEngineTests/GameStateTests.m"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "55"
+                  endingLineNumber = "55"
+                  offsetFromSymbolStart = "1968">
+               </Location>
+               <Location
+                  uuid = "093B69D2-8C31-4DC1-9B23-6F91C1FA6C50 - 406c247524009de5"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "-[GameStateTests testPositionHashPtm]"
+                  moduleName = "ChessEngineTests"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/tony/Documents/XCode/TjChess/ChessEngine/ChessEngineTests/GameStateTests.m"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "55"
+                  endingLineNumber = "55"
+                  offsetFromSymbolStart = "2124">
+               </Location>
+               <Location
+                  uuid = "093B69D2-8C31-4DC1-9B23-6F91C1FA6C50 - bae25fb93e213006"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "-[GameStateTests testPositionHashPlayerToMove]"
+                  moduleName = "ChessEngineTests"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/tony/Documents/XCode/TjChess/ChessEngine/ChessEngineTests/GameStateTests.m"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "55"
+                  endingLineNumber = "55"
+                  offsetFromSymbolStart = "588">
+               </Location>
+               <Location
+                  uuid = "093B69D2-8C31-4DC1-9B23-6F91C1FA6C50 - bae25fb93e213006"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "-[GameStateTests testPositionHashPlayerToMove]"
+                  moduleName = "ChessEngineTests"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/tony/Documents/XCode/TjChess/ChessEngine/ChessEngineTests/GameStateTests.m"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "55"
+                  endingLineNumber = "55"
+                  offsetFromSymbolStart = "640">
+               </Location>
+               <Location
+                  uuid = "093B69D2-8C31-4DC1-9B23-6F91C1FA6C50 - bae25fb93e213006"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "-[GameStateTests testPositionHashPlayerToMove]"
+                  moduleName = "ChessEngineTests"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/tony/Documents/XCode/TjChess/ChessEngine/ChessEngineTests/GameStateTests.m"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "55"
+                  endingLineNumber = "55"
+                  offsetFromSymbolStart = "1720">
+               </Location>
+               <Location
+                  uuid = "093B69D2-8C31-4DC1-9B23-6F91C1FA6C50 - bae25fb93e213006"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "-[GameStateTests testPositionHashPlayerToMove]"
+                  moduleName = "ChessEngineTests"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/tony/Documents/XCode/TjChess/ChessEngine/ChessEngineTests/GameStateTests.m"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "55"
+                  endingLineNumber = "55"
+                  offsetFromSymbolStart = "1760">
+               </Location>
+               <Location
+                  uuid = "093B69D2-8C31-4DC1-9B23-6F91C1FA6C50 - bae25fb93e213006"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "-[GameStateTests testPositionHashPlayerToMove]"
+                  moduleName = "ChessEngineTests"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/tony/Documents/XCode/TjChess/ChessEngine/ChessEngineTests/GameStateTests.m"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "55"
+                  endingLineNumber = "55"
+                  offsetFromSymbolStart = "1824">
+               </Location>
+               <Location
+                  uuid = "093B69D2-8C31-4DC1-9B23-6F91C1FA6C50 - bae25fb93e213006"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "-[GameStateTests testPositionHashPlayerToMove]"
+                  moduleName = "ChessEngineTests"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/tony/Documents/XCode/TjChess/ChessEngine/ChessEngineTests/GameStateTests.m"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "55"
+                  endingLineNumber = "55"
+                  offsetFromSymbolStart = "1968">
+               </Location>
+               <Location
+                  uuid = "093B69D2-8C31-4DC1-9B23-6F91C1FA6C50 - bae25fb93e213006"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "-[GameStateTests testPositionHashPlayerToMove]"
+                  moduleName = "ChessEngineTests"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/tony/Documents/XCode/TjChess/ChessEngine/ChessEngineTests/GameStateTests.m"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "55"
+                  endingLineNumber = "55"
+                  offsetFromSymbolStart = "2124">
+               </Location>
+               <Location
+                  uuid = "093B69D2-8C31-4DC1-9B23-6F91C1FA6C50 - bae25fb93e2132b3"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "-[GameStateTests testPositionHashPlayerToMove]"
+                  moduleName = "ChessEngineTests"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/tony/Documents/XCode/TjChess/ChessEngine/ChessEngineTests/GameStateTests.m"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "76"
+                  endingLineNumber = "76"
+                  offsetFromSymbolStart = "588">
+               </Location>
+               <Location
+                  uuid = "093B69D2-8C31-4DC1-9B23-6F91C1FA6C50 - bae25fb93e2132b3"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "-[GameStateTests testPositionHashPlayerToMove]"
+                  moduleName = "ChessEngineTests"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/tony/Documents/XCode/TjChess/ChessEngine/ChessEngineTests/GameStateTests.m"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "76"
+                  endingLineNumber = "76"
+                  offsetFromSymbolStart = "640">
+               </Location>
+               <Location
+                  uuid = "093B69D2-8C31-4DC1-9B23-6F91C1FA6C50 - bae25fb93e2132b3"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "-[GameStateTests testPositionHashPlayerToMove]"
+                  moduleName = "ChessEngineTests"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/tony/Documents/XCode/TjChess/ChessEngine/ChessEngineTests/GameStateTests.m"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "76"
+                  endingLineNumber = "76"
+                  offsetFromSymbolStart = "1720">
+               </Location>
+               <Location
+                  uuid = "093B69D2-8C31-4DC1-9B23-6F91C1FA6C50 - bae25fb93e2132b3"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "-[GameStateTests testPositionHashPlayerToMove]"
+                  moduleName = "ChessEngineTests"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/tony/Documents/XCode/TjChess/ChessEngine/ChessEngineTests/GameStateTests.m"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "76"
+                  endingLineNumber = "76"
+                  offsetFromSymbolStart = "1760">
+               </Location>
+               <Location
+                  uuid = "093B69D2-8C31-4DC1-9B23-6F91C1FA6C50 - bae25fb93e2132b3"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "-[GameStateTests testPositionHashPlayerToMove]"
+                  moduleName = "ChessEngineTests"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/tony/Documents/XCode/TjChess/ChessEngine/ChessEngineTests/GameStateTests.m"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "76"
+                  endingLineNumber = "76"
+                  offsetFromSymbolStart = "1824">
+               </Location>
+               <Location
+                  uuid = "093B69D2-8C31-4DC1-9B23-6F91C1FA6C50 - bae25fb93e2132b3"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "-[GameStateTests testPositionHashPlayerToMove]"
+                  moduleName = "ChessEngineTests"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/tony/Documents/XCode/TjChess/ChessEngine/ChessEngineTests/GameStateTests.m"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "76"
+                  endingLineNumber = "76"
+                  offsetFromSymbolStart = "1968">
+               </Location>
+               <Location
+                  uuid = "093B69D2-8C31-4DC1-9B23-6F91C1FA6C50 - bae25fb93e2132b3"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "-[GameStateTests testPositionHashPlayerToMove]"
+                  moduleName = "ChessEngineTests"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/tony/Documents/XCode/TjChess/ChessEngine/ChessEngineTests/GameStateTests.m"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "76"
+                  endingLineNumber = "76"
+                  offsetFromSymbolStart = "2124">
+               </Location>
+               <Location
+                  uuid = "093B69D2-8C31-4DC1-9B23-6F91C1FA6C50 - bae25fb93e2133cf"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "-[GameStateTests testPositionHashPlayerToMove]"
+                  moduleName = "ChessEngineTests"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/tony/Documents/XCode/TjChess/ChessEngine/ChessEngineTests/GameStateTests.m"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "80"
+                  endingLineNumber = "80"
+                  offsetFromSymbolStart = "588">
+               </Location>
+               <Location
+                  uuid = "093B69D2-8C31-4DC1-9B23-6F91C1FA6C50 - bae25fb93e2133cf"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "-[GameStateTests testPositionHashPlayerToMove]"
+                  moduleName = "ChessEngineTests"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/tony/Documents/XCode/TjChess/ChessEngine/ChessEngineTests/GameStateTests.m"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "80"
+                  endingLineNumber = "80"
+                  offsetFromSymbolStart = "640">
+               </Location>
+               <Location
+                  uuid = "093B69D2-8C31-4DC1-9B23-6F91C1FA6C50 - bae25fb93e2133cf"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "-[GameStateTests testPositionHashPlayerToMove]"
+                  moduleName = "ChessEngineTests"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/tony/Documents/XCode/TjChess/ChessEngine/ChessEngineTests/GameStateTests.m"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "80"
+                  endingLineNumber = "80"
+                  offsetFromSymbolStart = "1720">
+               </Location>
+               <Location
+                  uuid = "093B69D2-8C31-4DC1-9B23-6F91C1FA6C50 - bae25fb93e2133cf"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "-[GameStateTests testPositionHashPlayerToMove]"
+                  moduleName = "ChessEngineTests"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/tony/Documents/XCode/TjChess/ChessEngine/ChessEngineTests/GameStateTests.m"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "80"
+                  endingLineNumber = "80"
+                  offsetFromSymbolStart = "1760">
+               </Location>
+               <Location
+                  uuid = "093B69D2-8C31-4DC1-9B23-6F91C1FA6C50 - bae25fb93e2133cf"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "-[GameStateTests testPositionHashPlayerToMove]"
+                  moduleName = "ChessEngineTests"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/tony/Documents/XCode/TjChess/ChessEngine/ChessEngineTests/GameStateTests.m"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "80"
+                  endingLineNumber = "80"
+                  offsetFromSymbolStart = "1824">
+               </Location>
+               <Location
+                  uuid = "093B69D2-8C31-4DC1-9B23-6F91C1FA6C50 - bae25fb93e2133cf"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "-[GameStateTests testPositionHashPlayerToMove]"
+                  moduleName = "ChessEngineTests"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/tony/Documents/XCode/TjChess/ChessEngine/ChessEngineTests/GameStateTests.m"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "80"
+                  endingLineNumber = "80"
+                  offsetFromSymbolStart = "1968">
+               </Location>
+               <Location
+                  uuid = "093B69D2-8C31-4DC1-9B23-6F91C1FA6C50 - bae25fb93e2133cf"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "-[GameStateTests testPositionHashPlayerToMove]"
+                  moduleName = "ChessEngineTests"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/tony/Documents/XCode/TjChess/ChessEngine/ChessEngineTests/GameStateTests.m"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "80"
+                  endingLineNumber = "80"
+                  offsetFromSymbolStart = "2124">
+               </Location>
+               <Location
+                  uuid = "093B69D2-8C31-4DC1-9B23-6F91C1FA6C50 - bae25fb93e213636"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "-[GameStateTests testPositionHashPlayerToMove]"
+                  moduleName = "ChessEngineTests"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/tony/Documents/XCode/TjChess/ChessEngine/ChessEngineTests/GameStateTests.m"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "103"
+                  endingLineNumber = "103"
+                  offsetFromSymbolStart = "588">
+               </Location>
+               <Location
+                  uuid = "093B69D2-8C31-4DC1-9B23-6F91C1FA6C50 - bae25fb93e213636"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "-[GameStateTests testPositionHashPlayerToMove]"
+                  moduleName = "ChessEngineTests"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/tony/Documents/XCode/TjChess/ChessEngine/ChessEngineTests/GameStateTests.m"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "103"
+                  endingLineNumber = "103"
+                  offsetFromSymbolStart = "640">
+               </Location>
+               <Location
+                  uuid = "093B69D2-8C31-4DC1-9B23-6F91C1FA6C50 - bae25fb93e213636"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "-[GameStateTests testPositionHashPlayerToMove]"
+                  moduleName = "ChessEngineTests"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/tony/Documents/XCode/TjChess/ChessEngine/ChessEngineTests/GameStateTests.m"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "103"
+                  endingLineNumber = "103"
+                  offsetFromSymbolStart = "1720">
+               </Location>
+               <Location
+                  uuid = "093B69D2-8C31-4DC1-9B23-6F91C1FA6C50 - bae25fb93e213636"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "-[GameStateTests testPositionHashPlayerToMove]"
+                  moduleName = "ChessEngineTests"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/tony/Documents/XCode/TjChess/ChessEngine/ChessEngineTests/GameStateTests.m"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "103"
+                  endingLineNumber = "103"
+                  offsetFromSymbolStart = "1760">
+               </Location>
+               <Location
+                  uuid = "093B69D2-8C31-4DC1-9B23-6F91C1FA6C50 - bae25fb93e213636"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "-[GameStateTests testPositionHashPlayerToMove]"
+                  moduleName = "ChessEngineTests"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/tony/Documents/XCode/TjChess/ChessEngine/ChessEngineTests/GameStateTests.m"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "103"
+                  endingLineNumber = "103"
+                  offsetFromSymbolStart = "1824">
+               </Location>
+               <Location
+                  uuid = "093B69D2-8C31-4DC1-9B23-6F91C1FA6C50 - bae25fb93e213636"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "-[GameStateTests testPositionHashPlayerToMove]"
+                  moduleName = "ChessEngineTests"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/tony/Documents/XCode/TjChess/ChessEngine/ChessEngineTests/GameStateTests.m"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "103"
+                  endingLineNumber = "103"
+                  offsetFromSymbolStart = "1968">
+               </Location>
+               <Location
+                  uuid = "093B69D2-8C31-4DC1-9B23-6F91C1FA6C50 - bae25fb93e213636"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "-[GameStateTests testPositionHashPlayerToMove]"
+                  moduleName = "ChessEngineTests"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/tony/Documents/XCode/TjChess/ChessEngine/ChessEngineTests/GameStateTests.m"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "103"
+                  endingLineNumber = "103"
+                  offsetFromSymbolStart = "2124">
+               </Location>
+               <Location
+                  uuid = "093B69D2-8C31-4DC1-9B23-6F91C1FA6C50 - bae25fb93e212a7b"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "-[GameStateTests testPositionHashPlayerToMove]"
+                  moduleName = "ChessEngineTests"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/tony/Documents/XCode/TjChess/ChessEngine/ChessEngineTests/GameStateTests.m"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "132"
+                  endingLineNumber = "132"
+                  offsetFromSymbolStart = "588">
+               </Location>
+               <Location
+                  uuid = "093B69D2-8C31-4DC1-9B23-6F91C1FA6C50 - bae25fb93e212a7b"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "-[GameStateTests testPositionHashPlayerToMove]"
+                  moduleName = "ChessEngineTests"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/tony/Documents/XCode/TjChess/ChessEngine/ChessEngineTests/GameStateTests.m"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "132"
+                  endingLineNumber = "132"
+                  offsetFromSymbolStart = "640">
+               </Location>
+               <Location
+                  uuid = "093B69D2-8C31-4DC1-9B23-6F91C1FA6C50 - bae25fb93e212a7b"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "-[GameStateTests testPositionHashPlayerToMove]"
+                  moduleName = "ChessEngineTests"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/tony/Documents/XCode/TjChess/ChessEngine/ChessEngineTests/GameStateTests.m"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "132"
+                  endingLineNumber = "132"
+                  offsetFromSymbolStart = "1720">
+               </Location>
+               <Location
+                  uuid = "093B69D2-8C31-4DC1-9B23-6F91C1FA6C50 - bae25fb93e212a7b"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "-[GameStateTests testPositionHashPlayerToMove]"
+                  moduleName = "ChessEngineTests"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/tony/Documents/XCode/TjChess/ChessEngine/ChessEngineTests/GameStateTests.m"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "132"
+                  endingLineNumber = "132"
+                  offsetFromSymbolStart = "1760">
+               </Location>
+               <Location
+                  uuid = "093B69D2-8C31-4DC1-9B23-6F91C1FA6C50 - bae25fb93e212a7b"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "-[GameStateTests testPositionHashPlayerToMove]"
+                  moduleName = "ChessEngineTests"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/tony/Documents/XCode/TjChess/ChessEngine/ChessEngineTests/GameStateTests.m"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "132"
+                  endingLineNumber = "132"
+                  offsetFromSymbolStart = "1824">
+               </Location>
+               <Location
+                  uuid = "093B69D2-8C31-4DC1-9B23-6F91C1FA6C50 - bae25fb93e212a7b"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "-[GameStateTests testPositionHashPlayerToMove]"
+                  moduleName = "ChessEngineTests"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/tony/Documents/XCode/TjChess/ChessEngine/ChessEngineTests/GameStateTests.m"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "132"
+                  endingLineNumber = "132"
+                  offsetFromSymbolStart = "1968">
+               </Location>
+               <Location
+                  uuid = "093B69D2-8C31-4DC1-9B23-6F91C1FA6C50 - bae25fb93e212a7b"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "-[GameStateTests testPositionHashPlayerToMove]"
+                  moduleName = "ChessEngineTests"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/tony/Documents/XCode/TjChess/ChessEngine/ChessEngineTests/GameStateTests.m"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "132"
+                  endingLineNumber = "132"
+                  offsetFromSymbolStart = "2124">
+               </Location>
+               <Location
+                  uuid = "093B69D2-8C31-4DC1-9B23-6F91C1FA6C50 - bae25fb93e212d9f"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "-[GameStateTests testPositionHashPlayerToMove]"
+                  moduleName = "ChessEngineTests"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/tony/Documents/XCode/TjChess/ChessEngine/ChessEngineTests/GameStateTests.m"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "160"
+                  endingLineNumber = "160"
+                  offsetFromSymbolStart = "588">
+               </Location>
+               <Location
+                  uuid = "093B69D2-8C31-4DC1-9B23-6F91C1FA6C50 - bae25fb93e212d9f"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "-[GameStateTests testPositionHashPlayerToMove]"
+                  moduleName = "ChessEngineTests"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/tony/Documents/XCode/TjChess/ChessEngine/ChessEngineTests/GameStateTests.m"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "160"
+                  endingLineNumber = "160"
+                  offsetFromSymbolStart = "640">
+               </Location>
+               <Location
+                  uuid = "093B69D2-8C31-4DC1-9B23-6F91C1FA6C50 - bae25fb93e212d9f"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "-[GameStateTests testPositionHashPlayerToMove]"
+                  moduleName = "ChessEngineTests"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/tony/Documents/XCode/TjChess/ChessEngine/ChessEngineTests/GameStateTests.m"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "160"
+                  endingLineNumber = "160"
+                  offsetFromSymbolStart = "1720">
+               </Location>
+               <Location
+                  uuid = "093B69D2-8C31-4DC1-9B23-6F91C1FA6C50 - bae25fb93e212d9f"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "-[GameStateTests testPositionHashPlayerToMove]"
+                  moduleName = "ChessEngineTests"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/tony/Documents/XCode/TjChess/ChessEngine/ChessEngineTests/GameStateTests.m"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "160"
+                  endingLineNumber = "160"
+                  offsetFromSymbolStart = "1760">
+               </Location>
+               <Location
+                  uuid = "093B69D2-8C31-4DC1-9B23-6F91C1FA6C50 - bae25fb93e212d9f"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "-[GameStateTests testPositionHashPlayerToMove]"
+                  moduleName = "ChessEngineTests"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/tony/Documents/XCode/TjChess/ChessEngine/ChessEngineTests/GameStateTests.m"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "160"
+                  endingLineNumber = "160"
+                  offsetFromSymbolStart = "1824">
+               </Location>
+               <Location
+                  uuid = "093B69D2-8C31-4DC1-9B23-6F91C1FA6C50 - bae25fb93e212d9f"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "-[GameStateTests testPositionHashPlayerToMove]"
+                  moduleName = "ChessEngineTests"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/tony/Documents/XCode/TjChess/ChessEngine/ChessEngineTests/GameStateTests.m"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "160"
+                  endingLineNumber = "160"
+                  offsetFromSymbolStart = "1968">
+               </Location>
+               <Location
+                  uuid = "093B69D2-8C31-4DC1-9B23-6F91C1FA6C50 - bae25fb93e212d9f"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "-[GameStateTests testPositionHashPlayerToMove]"
+                  moduleName = "ChessEngineTests"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/tony/Documents/XCode/TjChess/ChessEngine/ChessEngineTests/GameStateTests.m"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "160"
+                  endingLineNumber = "160"
+                  offsetFromSymbolStart = "2124">
+               </Location>
+               <Location
+                  uuid = "093B69D2-8C31-4DC1-9B23-6F91C1FA6C50 - bae25fb93e212547"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "-[GameStateTests testPositionHashPlayerToMove]"
+                  moduleName = "ChessEngineTests"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/tony/Documents/XCode/TjChess/ChessEngine/ChessEngineTests/GameStateTests.m"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "216"
+                  endingLineNumber = "216"
+                  offsetFromSymbolStart = "588">
+               </Location>
+               <Location
+                  uuid = "093B69D2-8C31-4DC1-9B23-6F91C1FA6C50 - bae25fb93e212547"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "-[GameStateTests testPositionHashPlayerToMove]"
+                  moduleName = "ChessEngineTests"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/tony/Documents/XCode/TjChess/ChessEngine/ChessEngineTests/GameStateTests.m"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "216"
+                  endingLineNumber = "216"
+                  offsetFromSymbolStart = "640">
+               </Location>
+               <Location
+                  uuid = "093B69D2-8C31-4DC1-9B23-6F91C1FA6C50 - bae25fb93e212547"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "-[GameStateTests testPositionHashPlayerToMove]"
+                  moduleName = "ChessEngineTests"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/tony/Documents/XCode/TjChess/ChessEngine/ChessEngineTests/GameStateTests.m"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "216"
+                  endingLineNumber = "216"
+                  offsetFromSymbolStart = "1720">
+               </Location>
+               <Location
+                  uuid = "093B69D2-8C31-4DC1-9B23-6F91C1FA6C50 - bae25fb93e212547"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "-[GameStateTests testPositionHashPlayerToMove]"
+                  moduleName = "ChessEngineTests"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/tony/Documents/XCode/TjChess/ChessEngine/ChessEngineTests/GameStateTests.m"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "216"
+                  endingLineNumber = "216"
+                  offsetFromSymbolStart = "1760">
+               </Location>
+               <Location
+                  uuid = "093B69D2-8C31-4DC1-9B23-6F91C1FA6C50 - bae25fb93e212547"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "-[GameStateTests testPositionHashPlayerToMove]"
+                  moduleName = "ChessEngineTests"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/tony/Documents/XCode/TjChess/ChessEngine/ChessEngineTests/GameStateTests.m"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "216"
+                  endingLineNumber = "216"
+                  offsetFromSymbolStart = "1824">
+               </Location>
+               <Location
+                  uuid = "093B69D2-8C31-4DC1-9B23-6F91C1FA6C50 - bae25fb93e212547"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "-[GameStateTests testPositionHashPlayerToMove]"
+                  moduleName = "ChessEngineTests"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/tony/Documents/XCode/TjChess/ChessEngine/ChessEngineTests/GameStateTests.m"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "216"
+                  endingLineNumber = "216"
+                  offsetFromSymbolStart = "1968">
+               </Location>
+               <Location
+                  uuid = "093B69D2-8C31-4DC1-9B23-6F91C1FA6C50 - bae25fb93e212547"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "-[GameStateTests testPositionHashPlayerToMove]"
+                  moduleName = "ChessEngineTests"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/tony/Documents/XCode/TjChess/ChessEngine/ChessEngineTests/GameStateTests.m"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "216"
+                  endingLineNumber = "216"
+                  offsetFromSymbolStart = "2124">
+               </Location>
+               <Location
+                  uuid = "093B69D2-8C31-4DC1-9B23-6F91C1FA6C50 - bae25fb93e21180c"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "-[GameStateTests testPositionHashPlayerToMove]"
+                  moduleName = "ChessEngineTests"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/tony/Documents/XCode/TjChess/ChessEngine/ChessEngineTests/GameStateTests.m"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "241"
+                  endingLineNumber = "241"
+                  offsetFromSymbolStart = "588">
+               </Location>
+               <Location
+                  uuid = "093B69D2-8C31-4DC1-9B23-6F91C1FA6C50 - bae25fb93e21180c"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "-[GameStateTests testPositionHashPlayerToMove]"
+                  moduleName = "ChessEngineTests"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/tony/Documents/XCode/TjChess/ChessEngine/ChessEngineTests/GameStateTests.m"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "241"
+                  endingLineNumber = "241"
+                  offsetFromSymbolStart = "640">
+               </Location>
+               <Location
+                  uuid = "093B69D2-8C31-4DC1-9B23-6F91C1FA6C50 - bae25fb93e21180c"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "-[GameStateTests testPositionHashPlayerToMove]"
+                  moduleName = "ChessEngineTests"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/tony/Documents/XCode/TjChess/ChessEngine/ChessEngineTests/GameStateTests.m"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "241"
+                  endingLineNumber = "241"
+                  offsetFromSymbolStart = "1720">
+               </Location>
+               <Location
+                  uuid = "093B69D2-8C31-4DC1-9B23-6F91C1FA6C50 - bae25fb93e21180c"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "-[GameStateTests testPositionHashPlayerToMove]"
+                  moduleName = "ChessEngineTests"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/tony/Documents/XCode/TjChess/ChessEngine/ChessEngineTests/GameStateTests.m"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "241"
+                  endingLineNumber = "241"
+                  offsetFromSymbolStart = "1760">
+               </Location>
+               <Location
+                  uuid = "093B69D2-8C31-4DC1-9B23-6F91C1FA6C50 - bae25fb93e21180c"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "-[GameStateTests testPositionHashPlayerToMove]"
+                  moduleName = "ChessEngineTests"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/tony/Documents/XCode/TjChess/ChessEngine/ChessEngineTests/GameStateTests.m"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "241"
+                  endingLineNumber = "241"
+                  offsetFromSymbolStart = "1824">
+               </Location>
+               <Location
+                  uuid = "093B69D2-8C31-4DC1-9B23-6F91C1FA6C50 - bae25fb93e21180c"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "-[GameStateTests testPositionHashPlayerToMove]"
+                  moduleName = "ChessEngineTests"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/tony/Documents/XCode/TjChess/ChessEngine/ChessEngineTests/GameStateTests.m"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "241"
+                  endingLineNumber = "241"
+                  offsetFromSymbolStart = "1968">
+               </Location>
+               <Location
+                  uuid = "093B69D2-8C31-4DC1-9B23-6F91C1FA6C50 - bae25fb93e21180c"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "-[GameStateTests testPositionHashPlayerToMove]"
+                  moduleName = "ChessEngineTests"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/tony/Documents/XCode/TjChess/ChessEngine/ChessEngineTests/GameStateTests.m"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "241"
+                  endingLineNumber = "241"
+                  offsetFromSymbolStart = "2124">
+               </Location>
+               <Location
+                  uuid = "093B69D2-8C31-4DC1-9B23-6F91C1FA6C50 - bae25fb93e211ca8"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "-[GameStateTests testPositionHashPlayerToMove]"
+                  moduleName = "ChessEngineTests"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/tony/Documents/XCode/TjChess/ChessEngine/ChessEngineTests/GameStateTests.m"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "277"
+                  endingLineNumber = "277"
+                  offsetFromSymbolStart = "588">
+               </Location>
+               <Location
+                  uuid = "093B69D2-8C31-4DC1-9B23-6F91C1FA6C50 - bae25fb93e211ca8"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "-[GameStateTests testPositionHashPlayerToMove]"
+                  moduleName = "ChessEngineTests"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/tony/Documents/XCode/TjChess/ChessEngine/ChessEngineTests/GameStateTests.m"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "277"
+                  endingLineNumber = "277"
+                  offsetFromSymbolStart = "640">
+               </Location>
+               <Location
+                  uuid = "093B69D2-8C31-4DC1-9B23-6F91C1FA6C50 - bae25fb93e211ca8"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "-[GameStateTests testPositionHashPlayerToMove]"
+                  moduleName = "ChessEngineTests"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/tony/Documents/XCode/TjChess/ChessEngine/ChessEngineTests/GameStateTests.m"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "277"
+                  endingLineNumber = "277"
+                  offsetFromSymbolStart = "1720">
+               </Location>
+               <Location
+                  uuid = "093B69D2-8C31-4DC1-9B23-6F91C1FA6C50 - bae25fb93e211ca8"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "-[GameStateTests testPositionHashPlayerToMove]"
+                  moduleName = "ChessEngineTests"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/tony/Documents/XCode/TjChess/ChessEngine/ChessEngineTests/GameStateTests.m"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "277"
+                  endingLineNumber = "277"
+                  offsetFromSymbolStart = "1760">
+               </Location>
+               <Location
+                  uuid = "093B69D2-8C31-4DC1-9B23-6F91C1FA6C50 - bae25fb93e211ca8"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "-[GameStateTests testPositionHashPlayerToMove]"
+                  moduleName = "ChessEngineTests"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/tony/Documents/XCode/TjChess/ChessEngine/ChessEngineTests/GameStateTests.m"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "277"
+                  endingLineNumber = "277"
+                  offsetFromSymbolStart = "1824">
+               </Location>
+               <Location
+                  uuid = "093B69D2-8C31-4DC1-9B23-6F91C1FA6C50 - bae25fb93e211ca8"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "-[GameStateTests testPositionHashPlayerToMove]"
+                  moduleName = "ChessEngineTests"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/tony/Documents/XCode/TjChess/ChessEngine/ChessEngineTests/GameStateTests.m"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "277"
+                  endingLineNumber = "277"
+                  offsetFromSymbolStart = "1968">
+               </Location>
+               <Location
+                  uuid = "093B69D2-8C31-4DC1-9B23-6F91C1FA6C50 - bae25fb93e211ca8"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "-[GameStateTests testPositionHashPlayerToMove]"
+                  moduleName = "ChessEngineTests"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/tony/Documents/XCode/TjChess/ChessEngine/ChessEngineTests/GameStateTests.m"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "277"
+                  endingLineNumber = "277"
+                  offsetFromSymbolStart = "2124">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "69CCC2B0-FCC8-41B0-BCAC-2BDF40782CBA"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "../ChessEngine/ChessEngineTests/GameStateTests.m"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "284"
+            endingLineNumber = "284"
+            landmarkName = "-testPositionHashUpdate"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "CFD088F7-E04D-44AF-8E6E-89B4BFAE1572"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "../ChessEngine/ChessEngineTests/GameStateTests.m"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "325"
+            endingLineNumber = "325"
+            landmarkName = "-testIsSamePosition"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "CFD088F7-E04D-44AF-8E6E-89B4BFAE1572 - 8b0a693c99e10af9"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "-[GameStateTests testIsSamePosition]"
+                  moduleName = "ChessEngineTests"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/tony/Documents/XCode/TjChess/ChessEngine/ChessEngineTests/GameStateTests.m"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "103"
+                  endingLineNumber = "103"
+                  offsetFromSymbolStart = "1252">
+               </Location>
+               <Location
+                  uuid = "CFD088F7-E04D-44AF-8E6E-89B4BFAE1572 - 8b0a693c99e10af9"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "-[GameStateTests testIsSamePosition]"
+                  moduleName = "ChessEngineTests"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/tony/Documents/XCode/TjChess/ChessEngine/ChessEngineTests/GameStateTests.m"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "103"
+                  endingLineNumber = "103"
+                  offsetFromSymbolStart = "2144">
+               </Location>
+               <Location
+                  uuid = "CFD088F7-E04D-44AF-8E6E-89B4BFAE1572 - 8b0a693c99e10af9"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "-[GameStateTests testIsSamePosition]"
+                  moduleName = "ChessEngineTests"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/tony/Documents/XCode/TjChess/ChessEngine/ChessEngineTests/GameStateTests.m"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "103"
+                  endingLineNumber = "103"
+                  offsetFromSymbolStart = "2184">
+               </Location>
+               <Location
+                  uuid = "CFD088F7-E04D-44AF-8E6E-89B4BFAE1572 - 8b0a693c99e10af9"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "-[GameStateTests testIsSamePosition]"
+                  moduleName = "ChessEngineTests"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/tony/Documents/XCode/TjChess/ChessEngine/ChessEngineTests/GameStateTests.m"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "103"
+                  endingLineNumber = "103"
+                  offsetFromSymbolStart = "2248">
+               </Location>
+               <Location
+                  uuid = "CFD088F7-E04D-44AF-8E6E-89B4BFAE1572 - 8b0a693c99e10af9"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "-[GameStateTests testIsSamePosition]"
+                  moduleName = "ChessEngineTests"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/tony/Documents/XCode/TjChess/ChessEngine/ChessEngineTests/GameStateTests.m"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "103"
+                  endingLineNumber = "103"
+                  offsetFromSymbolStart = "2392">
+               </Location>
+               <Location
+                  uuid = "CFD088F7-E04D-44AF-8E6E-89B4BFAE1572 - 8b0a693c99e10af9"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "-[GameStateTests testIsSamePosition]"
+                  moduleName = "ChessEngineTests"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/tony/Documents/XCode/TjChess/ChessEngine/ChessEngineTests/GameStateTests.m"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "103"
+                  endingLineNumber = "103"
+                  offsetFromSymbolStart = "2548">
+               </Location>
+               <Location
+                  uuid = "CFD088F7-E04D-44AF-8E6E-89B4BFAE1572 - 8b0a693c99e115ac"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "-[GameStateTests testIsSamePosition]"
+                  moduleName = "ChessEngineTests"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/tony/Documents/XCode/TjChess/ChessEngine/ChessEngineTests/GameStateTests.m"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "124"
+                  endingLineNumber = "124"
+                  offsetFromSymbolStart = "1252">
+               </Location>
+               <Location
+                  uuid = "CFD088F7-E04D-44AF-8E6E-89B4BFAE1572 - 8b0a693c99e115ac"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "-[GameStateTests testIsSamePosition]"
+                  moduleName = "ChessEngineTests"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/tony/Documents/XCode/TjChess/ChessEngine/ChessEngineTests/GameStateTests.m"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "124"
+                  endingLineNumber = "124"
+                  offsetFromSymbolStart = "2144">
+               </Location>
+               <Location
+                  uuid = "CFD088F7-E04D-44AF-8E6E-89B4BFAE1572 - 8b0a693c99e115ac"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "-[GameStateTests testIsSamePosition]"
+                  moduleName = "ChessEngineTests"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/tony/Documents/XCode/TjChess/ChessEngine/ChessEngineTests/GameStateTests.m"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "124"
+                  endingLineNumber = "124"
+                  offsetFromSymbolStart = "2184">
+               </Location>
+               <Location
+                  uuid = "CFD088F7-E04D-44AF-8E6E-89B4BFAE1572 - 8b0a693c99e115ac"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "-[GameStateTests testIsSamePosition]"
+                  moduleName = "ChessEngineTests"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/tony/Documents/XCode/TjChess/ChessEngine/ChessEngineTests/GameStateTests.m"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "124"
+                  endingLineNumber = "124"
+                  offsetFromSymbolStart = "2248">
+               </Location>
+               <Location
+                  uuid = "CFD088F7-E04D-44AF-8E6E-89B4BFAE1572 - 8b0a693c99e115ac"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "-[GameStateTests testIsSamePosition]"
+                  moduleName = "ChessEngineTests"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/tony/Documents/XCode/TjChess/ChessEngine/ChessEngineTests/GameStateTests.m"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "124"
+                  endingLineNumber = "124"
+                  offsetFromSymbolStart = "2392">
+               </Location>
+               <Location
+                  uuid = "CFD088F7-E04D-44AF-8E6E-89B4BFAE1572 - 8b0a693c99e115ac"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "-[GameStateTests testIsSamePosition]"
+                  moduleName = "ChessEngineTests"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/tony/Documents/XCode/TjChess/ChessEngine/ChessEngineTests/GameStateTests.m"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "124"
+                  endingLineNumber = "124"
+                  offsetFromSymbolStart = "2548">
+               </Location>
+               <Location
+                  uuid = "CFD088F7-E04D-44AF-8E6E-89B4BFAE1572 - 8b0a693c99e11530"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "-[GameStateTests testIsSamePosition]"
+                  moduleName = "ChessEngineTests"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/tony/Documents/XCode/TjChess/ChessEngine/ChessEngineTests/GameStateTests.m"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "128"
+                  endingLineNumber = "128"
+                  offsetFromSymbolStart = "1252">
+               </Location>
+               <Location
+                  uuid = "CFD088F7-E04D-44AF-8E6E-89B4BFAE1572 - 8b0a693c99e11530"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "-[GameStateTests testIsSamePosition]"
+                  moduleName = "ChessEngineTests"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/tony/Documents/XCode/TjChess/ChessEngine/ChessEngineTests/GameStateTests.m"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "128"
+                  endingLineNumber = "128"
+                  offsetFromSymbolStart = "2144">
+               </Location>
+               <Location
+                  uuid = "CFD088F7-E04D-44AF-8E6E-89B4BFAE1572 - 8b0a693c99e11530"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "-[GameStateTests testIsSamePosition]"
+                  moduleName = "ChessEngineTests"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/tony/Documents/XCode/TjChess/ChessEngine/ChessEngineTests/GameStateTests.m"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "128"
+                  endingLineNumber = "128"
+                  offsetFromSymbolStart = "2184">
+               </Location>
+               <Location
+                  uuid = "CFD088F7-E04D-44AF-8E6E-89B4BFAE1572 - 8b0a693c99e11530"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "-[GameStateTests testIsSamePosition]"
+                  moduleName = "ChessEngineTests"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/tony/Documents/XCode/TjChess/ChessEngine/ChessEngineTests/GameStateTests.m"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "128"
+                  endingLineNumber = "128"
+                  offsetFromSymbolStart = "2248">
+               </Location>
+               <Location
+                  uuid = "CFD088F7-E04D-44AF-8E6E-89B4BFAE1572 - 8b0a693c99e11530"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "-[GameStateTests testIsSamePosition]"
+                  moduleName = "ChessEngineTests"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/tony/Documents/XCode/TjChess/ChessEngine/ChessEngineTests/GameStateTests.m"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "128"
+                  endingLineNumber = "128"
+                  offsetFromSymbolStart = "2392">
+               </Location>
+               <Location
+                  uuid = "CFD088F7-E04D-44AF-8E6E-89B4BFAE1572 - 8b0a693c99e11530"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "-[GameStateTests testIsSamePosition]"
+                  moduleName = "ChessEngineTests"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/tony/Documents/XCode/TjChess/ChessEngine/ChessEngineTests/GameStateTests.m"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "128"
+                  endingLineNumber = "128"
+                  offsetFromSymbolStart = "2548">
+               </Location>
+               <Location
+                  uuid = "CFD088F7-E04D-44AF-8E6E-89B4BFAE1572 - 8b0a693c99e11029"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "-[GameStateTests testIsSamePosition]"
+                  moduleName = "ChessEngineTests"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/tony/Documents/XCode/TjChess/ChessEngine/ChessEngineTests/GameStateTests.m"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "151"
+                  endingLineNumber = "151"
+                  offsetFromSymbolStart = "1252">
+               </Location>
+               <Location
+                  uuid = "CFD088F7-E04D-44AF-8E6E-89B4BFAE1572 - 8b0a693c99e11029"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "-[GameStateTests testIsSamePosition]"
+                  moduleName = "ChessEngineTests"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/tony/Documents/XCode/TjChess/ChessEngine/ChessEngineTests/GameStateTests.m"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "151"
+                  endingLineNumber = "151"
+                  offsetFromSymbolStart = "2144">
+               </Location>
+               <Location
+                  uuid = "CFD088F7-E04D-44AF-8E6E-89B4BFAE1572 - 8b0a693c99e11029"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "-[GameStateTests testIsSamePosition]"
+                  moduleName = "ChessEngineTests"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/tony/Documents/XCode/TjChess/ChessEngine/ChessEngineTests/GameStateTests.m"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "151"
+                  endingLineNumber = "151"
+                  offsetFromSymbolStart = "2184">
+               </Location>
+               <Location
+                  uuid = "CFD088F7-E04D-44AF-8E6E-89B4BFAE1572 - 8b0a693c99e11029"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "-[GameStateTests testIsSamePosition]"
+                  moduleName = "ChessEngineTests"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/tony/Documents/XCode/TjChess/ChessEngine/ChessEngineTests/GameStateTests.m"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "151"
+                  endingLineNumber = "151"
+                  offsetFromSymbolStart = "2248">
+               </Location>
+               <Location
+                  uuid = "CFD088F7-E04D-44AF-8E6E-89B4BFAE1572 - 8b0a693c99e11029"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "-[GameStateTests testIsSamePosition]"
+                  moduleName = "ChessEngineTests"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/tony/Documents/XCode/TjChess/ChessEngine/ChessEngineTests/GameStateTests.m"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "151"
+                  endingLineNumber = "151"
+                  offsetFromSymbolStart = "2392">
+               </Location>
+               <Location
+                  uuid = "CFD088F7-E04D-44AF-8E6E-89B4BFAE1572 - 8b0a693c99e11029"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "-[GameStateTests testIsSamePosition]"
+                  moduleName = "ChessEngineTests"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/tony/Documents/XCode/TjChess/ChessEngine/ChessEngineTests/GameStateTests.m"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "151"
+                  endingLineNumber = "151"
+                  offsetFromSymbolStart = "2548">
+               </Location>
+               <Location
+                  uuid = "CFD088F7-E04D-44AF-8E6E-89B4BFAE1572 - 8b0a693c99e11ce4"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "-[GameStateTests testIsSamePosition]"
+                  moduleName = "ChessEngineTests"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/tony/Documents/XCode/TjChess/ChessEngine/ChessEngineTests/GameStateTests.m"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "180"
+                  endingLineNumber = "180"
+                  offsetFromSymbolStart = "1252">
+               </Location>
+               <Location
+                  uuid = "CFD088F7-E04D-44AF-8E6E-89B4BFAE1572 - 8b0a693c99e11ce4"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "-[GameStateTests testIsSamePosition]"
+                  moduleName = "ChessEngineTests"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/tony/Documents/XCode/TjChess/ChessEngine/ChessEngineTests/GameStateTests.m"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "180"
+                  endingLineNumber = "180"
+                  offsetFromSymbolStart = "2144">
+               </Location>
+               <Location
+                  uuid = "CFD088F7-E04D-44AF-8E6E-89B4BFAE1572 - 8b0a693c99e11ce4"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "-[GameStateTests testIsSamePosition]"
+                  moduleName = "ChessEngineTests"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/tony/Documents/XCode/TjChess/ChessEngine/ChessEngineTests/GameStateTests.m"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "180"
+                  endingLineNumber = "180"
+                  offsetFromSymbolStart = "2184">
+               </Location>
+               <Location
+                  uuid = "CFD088F7-E04D-44AF-8E6E-89B4BFAE1572 - 8b0a693c99e11ce4"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "-[GameStateTests testIsSamePosition]"
+                  moduleName = "ChessEngineTests"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/tony/Documents/XCode/TjChess/ChessEngine/ChessEngineTests/GameStateTests.m"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "180"
+                  endingLineNumber = "180"
+                  offsetFromSymbolStart = "2248">
+               </Location>
+               <Location
+                  uuid = "CFD088F7-E04D-44AF-8E6E-89B4BFAE1572 - 8b0a693c99e11ce4"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "-[GameStateTests testIsSamePosition]"
+                  moduleName = "ChessEngineTests"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/tony/Documents/XCode/TjChess/ChessEngine/ChessEngineTests/GameStateTests.m"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "180"
+                  endingLineNumber = "180"
+                  offsetFromSymbolStart = "2392">
+               </Location>
+               <Location
+                  uuid = "CFD088F7-E04D-44AF-8E6E-89B4BFAE1572 - 8b0a693c99e11ce4"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "-[GameStateTests testIsSamePosition]"
+                  moduleName = "ChessEngineTests"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/tony/Documents/XCode/TjChess/ChessEngine/ChessEngineTests/GameStateTests.m"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "180"
+                  endingLineNumber = "180"
+                  offsetFromSymbolStart = "2548">
+               </Location>
+               <Location
+                  uuid = "CFD088F7-E04D-44AF-8E6E-89B4BFAE1572 - 8b0a693c99e11880"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "-[GameStateTests testIsSamePosition]"
+                  moduleName = "ChessEngineTests"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/tony/Documents/XCode/TjChess/ChessEngine/ChessEngineTests/GameStateTests.m"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "208"
+                  endingLineNumber = "208"
+                  offsetFromSymbolStart = "1252">
+               </Location>
+               <Location
+                  uuid = "CFD088F7-E04D-44AF-8E6E-89B4BFAE1572 - 8b0a693c99e11880"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "-[GameStateTests testIsSamePosition]"
+                  moduleName = "ChessEngineTests"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/tony/Documents/XCode/TjChess/ChessEngine/ChessEngineTests/GameStateTests.m"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "208"
+                  endingLineNumber = "208"
+                  offsetFromSymbolStart = "2144">
+               </Location>
+               <Location
+                  uuid = "CFD088F7-E04D-44AF-8E6E-89B4BFAE1572 - 8b0a693c99e11880"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "-[GameStateTests testIsSamePosition]"
+                  moduleName = "ChessEngineTests"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/tony/Documents/XCode/TjChess/ChessEngine/ChessEngineTests/GameStateTests.m"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "208"
+                  endingLineNumber = "208"
+                  offsetFromSymbolStart = "2184">
+               </Location>
+               <Location
+                  uuid = "CFD088F7-E04D-44AF-8E6E-89B4BFAE1572 - 8b0a693c99e11880"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "-[GameStateTests testIsSamePosition]"
+                  moduleName = "ChessEngineTests"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/tony/Documents/XCode/TjChess/ChessEngine/ChessEngineTests/GameStateTests.m"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "208"
+                  endingLineNumber = "208"
+                  offsetFromSymbolStart = "2248">
+               </Location>
+               <Location
+                  uuid = "CFD088F7-E04D-44AF-8E6E-89B4BFAE1572 - 8b0a693c99e11880"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "-[GameStateTests testIsSamePosition]"
+                  moduleName = "ChessEngineTests"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/tony/Documents/XCode/TjChess/ChessEngine/ChessEngineTests/GameStateTests.m"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "208"
+                  endingLineNumber = "208"
+                  offsetFromSymbolStart = "2392">
+               </Location>
+               <Location
+                  uuid = "CFD088F7-E04D-44AF-8E6E-89B4BFAE1572 - 8b0a693c99e11880"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "-[GameStateTests testIsSamePosition]"
+                  moduleName = "ChessEngineTests"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/tony/Documents/XCode/TjChess/ChessEngine/ChessEngineTests/GameStateTests.m"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "208"
+                  endingLineNumber = "208"
+                  offsetFromSymbolStart = "2548">
+               </Location>
+               <Location
+                  uuid = "CFD088F7-E04D-44AF-8E6E-89B4BFAE1572 - 8b0a693c99e127b8"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "-[GameStateTests testIsSamePosition]"
+                  moduleName = "ChessEngineTests"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/tony/Documents/XCode/TjChess/ChessEngine/ChessEngineTests/GameStateTests.m"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "264"
+                  endingLineNumber = "264"
+                  offsetFromSymbolStart = "1252">
+               </Location>
+               <Location
+                  uuid = "CFD088F7-E04D-44AF-8E6E-89B4BFAE1572 - 8b0a693c99e127b8"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "-[GameStateTests testIsSamePosition]"
+                  moduleName = "ChessEngineTests"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/tony/Documents/XCode/TjChess/ChessEngine/ChessEngineTests/GameStateTests.m"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "264"
+                  endingLineNumber = "264"
+                  offsetFromSymbolStart = "2144">
+               </Location>
+               <Location
+                  uuid = "CFD088F7-E04D-44AF-8E6E-89B4BFAE1572 - 8b0a693c99e127b8"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "-[GameStateTests testIsSamePosition]"
+                  moduleName = "ChessEngineTests"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/tony/Documents/XCode/TjChess/ChessEngine/ChessEngineTests/GameStateTests.m"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "264"
+                  endingLineNumber = "264"
+                  offsetFromSymbolStart = "2184">
+               </Location>
+               <Location
+                  uuid = "CFD088F7-E04D-44AF-8E6E-89B4BFAE1572 - 8b0a693c99e127b8"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "-[GameStateTests testIsSamePosition]"
+                  moduleName = "ChessEngineTests"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/tony/Documents/XCode/TjChess/ChessEngine/ChessEngineTests/GameStateTests.m"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "264"
+                  endingLineNumber = "264"
+                  offsetFromSymbolStart = "2248">
+               </Location>
+               <Location
+                  uuid = "CFD088F7-E04D-44AF-8E6E-89B4BFAE1572 - 8b0a693c99e127b8"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "-[GameStateTests testIsSamePosition]"
+                  moduleName = "ChessEngineTests"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/tony/Documents/XCode/TjChess/ChessEngine/ChessEngineTests/GameStateTests.m"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "264"
+                  endingLineNumber = "264"
+                  offsetFromSymbolStart = "2392">
+               </Location>
+               <Location
+                  uuid = "CFD088F7-E04D-44AF-8E6E-89B4BFAE1572 - 8b0a693c99e127b8"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "-[GameStateTests testIsSamePosition]"
+                  moduleName = "ChessEngineTests"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/tony/Documents/XCode/TjChess/ChessEngine/ChessEngineTests/GameStateTests.m"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "264"
+                  endingLineNumber = "264"
+                  offsetFromSymbolStart = "2548">
+               </Location>
+               <Location
+                  uuid = "CFD088F7-E04D-44AF-8E6E-89B4BFAE1572 - 8b0a693c99e122f3"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "-[GameStateTests testIsSamePosition]"
+                  moduleName = "ChessEngineTests"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/tony/Documents/XCode/TjChess/ChessEngine/ChessEngineTests/GameStateTests.m"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "289"
+                  endingLineNumber = "289"
+                  offsetFromSymbolStart = "1252">
+               </Location>
+               <Location
+                  uuid = "CFD088F7-E04D-44AF-8E6E-89B4BFAE1572 - 8b0a693c99e122f3"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "-[GameStateTests testIsSamePosition]"
+                  moduleName = "ChessEngineTests"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/tony/Documents/XCode/TjChess/ChessEngine/ChessEngineTests/GameStateTests.m"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "289"
+                  endingLineNumber = "289"
+                  offsetFromSymbolStart = "2144">
+               </Location>
+               <Location
+                  uuid = "CFD088F7-E04D-44AF-8E6E-89B4BFAE1572 - 8b0a693c99e122f3"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "-[GameStateTests testIsSamePosition]"
+                  moduleName = "ChessEngineTests"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/tony/Documents/XCode/TjChess/ChessEngine/ChessEngineTests/GameStateTests.m"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "289"
+                  endingLineNumber = "289"
+                  offsetFromSymbolStart = "2184">
+               </Location>
+               <Location
+                  uuid = "CFD088F7-E04D-44AF-8E6E-89B4BFAE1572 - 8b0a693c99e122f3"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "-[GameStateTests testIsSamePosition]"
+                  moduleName = "ChessEngineTests"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/tony/Documents/XCode/TjChess/ChessEngine/ChessEngineTests/GameStateTests.m"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "289"
+                  endingLineNumber = "289"
+                  offsetFromSymbolStart = "2248">
+               </Location>
+               <Location
+                  uuid = "CFD088F7-E04D-44AF-8E6E-89B4BFAE1572 - 8b0a693c99e122f3"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "-[GameStateTests testIsSamePosition]"
+                  moduleName = "ChessEngineTests"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/tony/Documents/XCode/TjChess/ChessEngine/ChessEngineTests/GameStateTests.m"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "289"
+                  endingLineNumber = "289"
+                  offsetFromSymbolStart = "2392">
+               </Location>
+               <Location
+                  uuid = "CFD088F7-E04D-44AF-8E6E-89B4BFAE1572 - 8b0a693c99e122f3"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "-[GameStateTests testIsSamePosition]"
+                  moduleName = "ChessEngineTests"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/tony/Documents/XCode/TjChess/ChessEngine/ChessEngineTests/GameStateTests.m"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "289"
+                  endingLineNumber = "289"
+                  offsetFromSymbolStart = "2548">
+               </Location>
+               <Location
+                  uuid = "CFD088F7-E04D-44AF-8E6E-89B4BFAE1572 - 8b0a693c99e12f97"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "-[GameStateTests testIsSamePosition]"
+                  moduleName = "ChessEngineTests"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/tony/Documents/XCode/TjChess/ChessEngine/ChessEngineTests/GameStateTests.m"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "325"
+                  endingLineNumber = "325"
+                  offsetFromSymbolStart = "1252">
+               </Location>
+               <Location
+                  uuid = "CFD088F7-E04D-44AF-8E6E-89B4BFAE1572 - 8b0a693c99e12f97"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "-[GameStateTests testIsSamePosition]"
+                  moduleName = "ChessEngineTests"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/tony/Documents/XCode/TjChess/ChessEngine/ChessEngineTests/GameStateTests.m"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "325"
+                  endingLineNumber = "325"
+                  offsetFromSymbolStart = "2144">
+               </Location>
+               <Location
+                  uuid = "CFD088F7-E04D-44AF-8E6E-89B4BFAE1572 - 8b0a693c99e12f97"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "-[GameStateTests testIsSamePosition]"
+                  moduleName = "ChessEngineTests"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/tony/Documents/XCode/TjChess/ChessEngine/ChessEngineTests/GameStateTests.m"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "325"
+                  endingLineNumber = "325"
+                  offsetFromSymbolStart = "2184">
+               </Location>
+               <Location
+                  uuid = "CFD088F7-E04D-44AF-8E6E-89B4BFAE1572 - 8b0a693c99e12f97"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "-[GameStateTests testIsSamePosition]"
+                  moduleName = "ChessEngineTests"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/tony/Documents/XCode/TjChess/ChessEngine/ChessEngineTests/GameStateTests.m"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "325"
+                  endingLineNumber = "325"
+                  offsetFromSymbolStart = "2248">
+               </Location>
+               <Location
+                  uuid = "CFD088F7-E04D-44AF-8E6E-89B4BFAE1572 - 8b0a693c99e12f97"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "-[GameStateTests testIsSamePosition]"
+                  moduleName = "ChessEngineTests"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/tony/Documents/XCode/TjChess/ChessEngine/ChessEngineTests/GameStateTests.m"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "325"
+                  endingLineNumber = "325"
+                  offsetFromSymbolStart = "2392">
+               </Location>
+               <Location
+                  uuid = "CFD088F7-E04D-44AF-8E6E-89B4BFAE1572 - 8b0a693c99e12f97"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "-[GameStateTests testIsSamePosition]"
+                  moduleName = "ChessEngineTests"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/tony/Documents/XCode/TjChess/ChessEngine/ChessEngineTests/GameStateTests.m"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "325"
+                  endingLineNumber = "325"
+                  offsetFromSymbolStart = "2548">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "9B8FAA68-8367-48B7-8F92-04BEE161FDF2"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "../ChessEngine/GameState.c"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "225"
+            endingLineNumber = "225"
+            landmarkName = "isSamePosition(gs1, gs2)"
             landmarkType = "9">
+            <Locations>
+               <Location
+                  uuid = "9B8FAA68-8367-48B7-8F92-04BEE161FDF2 - 466c4824b26f4fdc"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "isSamePosition"
+                  moduleName = "ChessEngineTests"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/tony/Documents/XCode/TjChess/ChessEngine/GameState.c"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "198"
+                  endingLineNumber = "198"
+                  offsetFromSymbolStart = "256">
+               </Location>
+               <Location
+                  uuid = "9B8FAA68-8367-48B7-8F92-04BEE161FDF2 - 466c4824b26f4f12"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "isSamePosition"
+                  moduleName = "ChessEngineTests"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/tony/Documents/XCode/TjChess/ChessEngine/GameState.c"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "200"
+                  endingLineNumber = "200"
+                  offsetFromSymbolStart = "256">
+               </Location>
+               <Location
+                  uuid = "9B8FAA68-8367-48B7-8F92-04BEE161FDF2 - 466c4824b26f5399"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "isSamePosition"
+                  moduleName = "ChessEngineTests"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/tony/Documents/XCode/TjChess/ChessEngine/GameState.c"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "227"
+                  endingLineNumber = "227"
+                  offsetFromSymbolStart = "256">
+               </Location>
+            </Locations>
          </BreakpointContent>
       </BreakpointProxy>
    </Breakpoints>

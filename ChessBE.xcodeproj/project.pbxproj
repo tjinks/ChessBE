@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		EA0AAC782C4C128000D64029 /* libChessEngine.a in Frameworks */ = {isa = PBXBuildFile; fileRef = EAEC095C2C1F214D0035F2D1 /* libChessEngine.a */; };
 		EA3D03DE2BF6AF1800CC2DD0 /* MoveGenerator.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA3D03C22BF6AF1800CC2DD0 /* MoveGenerator.swift */; };
 		EA3D03E12BF6AF1800CC2DD0 /* DefaultEvaluator.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA3D03C52BF6AF1800CC2DD0 /* DefaultEvaluator.swift */; };
 		EA3D03E22BF6AF1800CC2DD0 /* Piece.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA3D03C62BF6AF1800CC2DD0 /* Piece.swift */; };
@@ -101,6 +102,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EA0AAC782C4C128000D64029 /* libChessEngine.a in Frameworks */,
 				EAEC096E2C1F259E0035F2D1 /* libChessBE.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -108,6 +110,13 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		EA0AAC752C4C128000D64029 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		EA3D03A82BF6AEBE00CC2DD0 = {
 			isa = PBXGroup;
 			children = (
@@ -117,6 +126,7 @@
 				EA3D03C12BF6AF1800CC2DD0 /* engine-orig */,
 				EAEC096B2C1F259E0035F2D1 /* ChessBETests */,
 				EA3D03B22BF6AEBE00CC2DD0 /* Products */,
+				EA0AAC752C4C128000D64029 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
